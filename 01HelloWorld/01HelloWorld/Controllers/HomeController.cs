@@ -23,9 +23,13 @@ namespace _01HelloWorld.Controllers
             return View();
         }
 
-        public String Roman() 
+        public String helloRoman() 
         {
             return "Hello Roman";
+        }
+
+        public IActionResult Roman() { 
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
