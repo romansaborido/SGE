@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\01HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\01helloworld\\01helloworld\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|solutionrelative:01helloworld\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\01helloworld\\01helloworld\\controllers\\filetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|solutionrelative:01helloworld\\controllers\\filetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\01helloworld\\01helloworld\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{820DDFFC-ACFD-4D97-9186-114F0D6C0927}|01HelloWorld\\01HelloWorld.csproj|solutionrelative:01helloworld\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileteController.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\01HelloWorld\\01HelloWorld\\Controllers\\FileteController.cs",
               "RelativeDocumentMoniker": "01HelloWorld\\Controllers\\FileteController.cs",
@@ -35,7 +35,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\01HelloWorld\\01HelloWorld\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "01HelloWorld\\Controllers\\HomeController.cs",
