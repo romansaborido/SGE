@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\",
+  "WorkspaceRootPath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\unidad7\\unidad7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\unidad7\\unidad7\\models\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\models\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\unidad7\\unidad7\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\unidad7\\unidad7\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\unidad7\\unidad7\\views\\home\\listadopersonas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\unidad7\\unidad7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\unidad7\\unidad7\\views\\home\\listadopersonas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\views\\home\\listadopersonas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\unidad7\\unidad7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\unidad7\\unidad7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6008CE1-1FCD-4416-B188-D17008F86281}|Unidad7\\Unidad7.csproj|solutionrelative:unidad7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Unidad7\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Unidad7\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T11:58:24.899Z",
               "IsPinned": true,
@@ -44,11 +48,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ListadoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\DAL\\ListadoPersonas.cs",
+              "RelativeDocumentMoniker": "Unidad7\\Models\\DAL\\ListadoPersonas.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\DAL\\ListadoPersonas.cs*",
+              "RelativeToolTip": "Unidad7\\Models\\DAL\\ListadoPersonas.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:19:16.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "listadoPersonas.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\listadoPersonas.cshtml",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\listadoPersonas.cshtml",
               "RelativeDocumentMoniker": "Unidad7\\Views\\Home\\listadoPersonas.cshtml",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\listadoPersonas.cshtml",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\listadoPersonas.cshtml",
               "RelativeToolTip": "Unidad7\\Views\\Home\\listadoPersonas.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -59,24 +76,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\Entities\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Unidad7\\Models\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Models\\Entities\\Persona.cs",
               "RelativeToolTip": "Unidad7\\Models\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T12:08:42.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Unidad7\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Unidad7\\Unidad7\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Unidad7\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-20T11:59:37.261Z",
               "EditorCaption": ""
