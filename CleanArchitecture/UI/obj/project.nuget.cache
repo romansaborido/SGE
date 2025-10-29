@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M+VgOcTQOFI=",
+  "dgSpecHash": "9ptJqo9RtLM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rsabo\\source\\repos\\CleanArchitecture\\UI\\UI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rsabo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

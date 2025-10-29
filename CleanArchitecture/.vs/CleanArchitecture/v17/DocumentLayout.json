@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rsabo\\source\\repos\\CleanArchitecture\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01CF9BE9-3412-4660-8045-ECA779688A87}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\cleanarchitecture\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CF9BE9-3412-4660-8045-ECA779688A87}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3704F8D2-4D88-44A6-93CB-A84238626663}|Core\\Container.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\cleanarchitecture\\core\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3704F8D2-4D88-44A6-93CB-A84238626663}|Core\\Container.csproj|solutionrelative:core\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:33:27.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InversifyConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\Core\\InversifyConfig.cs",
+              "RelativeDocumentMoniker": "Core\\InversifyConfig.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\Core\\InversifyConfig.cs",
+              "RelativeToolTip": "Core\\InversifyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:18:03.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
