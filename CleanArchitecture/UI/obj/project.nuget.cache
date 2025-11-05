@@ -1,10 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "9ptJqo9RtLM=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\CleanArchitecture\\UI\\UI.csproj",
+  "dgSpecHash": "6Ft4mTZBWAY=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\UI\\UI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rsabo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512"
+    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Core\\CompositionRoot.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\UI\\UI.csproj",
+      "filePath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\UI\\UI.csproj",
+      "libraryId": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Core\\CompositionRoot.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

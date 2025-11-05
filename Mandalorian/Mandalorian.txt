@@ -1,0 +1,34 @@
+Mandalorian
+	Domain
+		Entities/
+			Mision.cs
+		UseCases/
+			ListadoMisionesUseCase.cs : IListadoMisionesUseCases
+				+ List<Mision> getMisiones (Comprobar media noche, en caso de que lo sea devolvemos una lista vacia) Raise Exception
+				+ Mision getMisionById
+				
+			Interfaces/
+				IListadoMisionesRepository.cs
+					+ List<Mision> getMisiones 
+				IListadoMisionesUseCases.cs
+					+ List<Mision> getMisiones
+					+ Mision getMisionById
+	Data
+		Repositories/
+			ListadoMisiones.cs : IListadoMisionesRepository
+			ListadoMisionesVacio.cs : IListadoMisionesRepository
+	UI
+		Models/
+		Controllers/
+			HomeController.cs
+		Views/		
+			Home/
+				Index.cs
+	CompositionRoot
+	
+
+
+
+inyectar en el constructor del controlador -> los casos de uso?
+
+post para recibir los datos de la vista debajo del action (recibir el ID)
