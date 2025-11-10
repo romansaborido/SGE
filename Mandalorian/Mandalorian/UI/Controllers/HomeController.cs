@@ -1,9 +1,10 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using UI.Models;
-
-using Domain.UseCases;
+using Domain.Entities;
 using Domain.Interfaces;
+using Domain.UseCases;
+using DTO.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using UI.Models;
 
 namespace UI.Controllers
 {
@@ -28,9 +29,9 @@ namespace UI.Controllers
         [HttpPost]
         public IActionResult MisionSeleccionada(int idMision)
         {
-            var misionSeleccionada = _listadoMisionesUseCase.getMisionById(idMision);
+            IMisionesWithSelectedMision dto = _listadoMisionesUseCase.getMisionesWithSelectedMision(idMision);
 
-            return View(misionSeleccionada);
+            return View(dto);
         }
 
         public IActionResult Privacy()

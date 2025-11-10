@@ -1,5 +1,7 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
+using DTO.DTOs;
+using DTO.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,5 +43,14 @@ namespace Domain.UseCases
             }
             throw new Exception($"No se encontró ninguna misión con ID {id}");
         }
+
+
+        public IMisionesWithSelectedMision getMisionesWithSelectedMision(int idSeleccionado) 
+        {
+            List<Mision> listadoMisiones = getMisiones();
+            Mision misionSeleccionada = getMisionById(idSeleccionado);
+
+            return new MisionesWithSelectedMision(listadoMisiones, misionSeleccionada);
+        }
     }
-}
+}   
