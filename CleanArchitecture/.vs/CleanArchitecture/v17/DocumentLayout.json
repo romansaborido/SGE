@@ -34,15 +34,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CompositionRoot",
+              "Title": "CompositionRoot.csproj",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeDocumentMoniker": "CompositionRoot\\CompositionRoot.csproj",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeToolTip": "CompositionRoot\\CompositionRoot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T12:31:04.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T12:31:04.408Z"
             },
             {
               "$type": "Document",
@@ -52,7 +51,7 @@
               "RelativeDocumentMoniker": "CompositionRoot\\InversifyConf.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\InversifyConf.cs",
               "RelativeToolTip": "CompositionRoot\\InversifyConf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T12:28:02.221Z",
               "EditorCaption": ""
@@ -67,8 +66,7 @@
               "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:44:21.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T19:44:21.595Z"
             },
             {
               "$type": "Document",
@@ -78,7 +76,7 @@
               "RelativeDocumentMoniker": "UI\\Program.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\UI\\Program.cs",
               "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T19:33:27.761Z",
               "EditorCaption": ""

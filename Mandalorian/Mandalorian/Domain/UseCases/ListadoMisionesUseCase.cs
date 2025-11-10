@@ -21,7 +21,7 @@ namespace Domain.UseCases
         {
             DateTime horaActual = DateTime.Now;
 
-            if (horaActual.Hour >= 20)
+            if (horaActual.Hour <= 20)
             {
                 return _listadoMisiones.getMisiones();
             }
