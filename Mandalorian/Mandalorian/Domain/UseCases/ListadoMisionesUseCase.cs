@@ -16,7 +16,7 @@ namespace Domain.UseCases
         public ListadoMisionesUseCase(IListadoMisionesRepository listadoMisiones)
         {
             _listadoMisiones = listadoMisiones;
-        }
+        }   
 
         public List<Mision> getMisiones() 
         {
