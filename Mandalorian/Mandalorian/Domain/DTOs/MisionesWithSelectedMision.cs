@@ -1,9 +1,8 @@
 ﻿using Domain.Entities;
-using DTO.Interfaces;
 
 namespace DTO.DTOs
 {
-    public class MisionesWithSelectedMision : IMisionesWithSelectedMision
+    public class MisionesWithSelectedMision
     {
         #region atributos
         private List<Mision> _listadoMisiones;

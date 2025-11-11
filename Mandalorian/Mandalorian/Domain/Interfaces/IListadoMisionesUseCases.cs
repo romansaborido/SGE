@@ -1,5 +1,5 @@
 ﻿using Domain.Entities;
-using DTO.Interfaces;
+using DTO.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +12,6 @@ namespace Domain.Interfaces
     {
         List<Mision> getMisiones();
         Mision getMisionById(int id);
-        IMisionesWithSelectedMision getMisionesWithSelectedMision(int idSeleccionado);
+        MisionesWithSelectedMision getMisionesWithSelectedMision(int idSeleccionado);
     }
 }

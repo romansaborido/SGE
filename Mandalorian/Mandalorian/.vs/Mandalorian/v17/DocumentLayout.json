@@ -1,50 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\",
+  "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\misionseleccionada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\misionseleccionada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\misionseleccionada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\domain\\interfaces\\ilistadomisionesusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ilistadomisionesusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\domain\\interfaces\\imisioneswithselectedmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\imisioneswithselectedmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\domain\\dtos\\misioneswithselectedmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\domain\\dtos\\misioneswithselectedmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\misioneswithselectedmision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\domain\\interfaces\\ilistadomisionesusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ilistadomisionesusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5688D330-DB2A-4504-AE13-65B087FA113E}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\mandalorian\\mandalorian\\data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5688D330-DB2A-4504-AE13-65B087FA113E}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5688D330-DB2A-4504-AE13-65B087FA113E}|Data\\Data.csproj|solutionrelative:data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A0272C9-29D7-4B5E-9A5D-C3FB89843C18}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\mandalorian\\mandalorian\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80B7A3A-12D2-48C7-B121-2EF197AD4851}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,26 +54,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T17:47:13.867Z",
+              "DocumentIndex": 4,
+              "Title": "IListadoMisionesUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IListadoMisionesUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IListadoMisionesUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IListadoMisionesUseCases.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IListadoMisionesUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:32:00.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MisionSeleccionada.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\MisionSeleccionada.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\MisionSeleccionada.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Home\\MisionSeleccionada.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\MisionSeleccionada.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\MisionSeleccionada.cshtml",
               "RelativeToolTip": "UI\\Views\\Home\\MisionSeleccionada.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-10T17:46:55.018Z",
               "EditorCaption": ""
@@ -86,22 +82,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-10T17:45:58.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:27:44.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "UI\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "UI\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,93 +120,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IListadoMisionesUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IListadoMisionesUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IListadoMisionesUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IListadoMisionesUseCases.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IListadoMisionesUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "MisionesWithSelectedMision.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\DTOs\\MisionesWithSelectedMision.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\MisionesWithSelectedMision.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\DTOs\\MisionesWithSelectedMision.cs",
+              "RelativeToolTip": "Domain\\DTOs\\MisionesWithSelectedMision.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:32:00.317Z",
+              "WhenOpened": "2025-11-10T17:06:55.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:27:44.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ListadoMisionesUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\UseCases\\ListadoMisionesUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\UseCases\\ListadoMisionesUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\ListadoMisionesUseCase.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\UseCases\\ListadoMisionesUseCase.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\UseCases\\ListadoMisionesUseCase.cs",
               "RelativeToolTip": "Domain\\UseCases\\ListadoMisionesUseCase.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wDQAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T17:25:12.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mision.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Entities\\Mision.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Mision.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Entities\\Mision.cs",
-              "RelativeToolTip": "Domain\\Entities\\Mision.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:24:07.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "ListadoMisiones.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Data\\Repositories\\ListadoMisiones.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Data\\Repositories\\ListadoMisiones.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\ListadoMisiones.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Data\\Repositories\\ListadoMisiones.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Data\\Repositories\\ListadoMisiones.cs",
               "RelativeToolTip": "Data\\Repositories\\ListadoMisiones.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T17:23:56.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMisionesWithSelectedMision.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IMisionesWithSelectedMision.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IMisionesWithSelectedMision.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Interfaces\\IMisionesWithSelectedMision.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IMisionesWithSelectedMision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:08:43.669Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T17:47:13.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MisionesWithSelectedMision.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\DTOs\\MisionesWithSelectedMision.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\MisionesWithSelectedMision.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\DTOs\\MisionesWithSelectedMision.cs",
-              "RelativeToolTip": "Domain\\DTOs\\MisionesWithSelectedMision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Mision.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Entities\\Mision.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Mision.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\Domain\\Entities\\Mision.cs",
+              "RelativeToolTip": "Domain\\Entities\\Mision.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:06:55.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T17:24:07.055Z"
             }
           ]
         }

@@ -1,7 +1,7 @@
 using Domain.Entities;
 using Domain.Interfaces;
 using Domain.UseCases;
-using DTO.Interfaces;
+using DTO.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using UI.Models;
@@ -29,7 +29,7 @@ namespace UI.Controllers
         [HttpPost]
         public IActionResult MisionSeleccionada(int idMision)
         {
-            IMisionesWithSelectedMision dto = _listadoMisionesUseCase.getMisionesWithSelectedMision(idMision);
+            var dto = _listadoMisionesUseCase.getMisionesWithSelectedMision(idMision);
 
             return View(dto);
         }

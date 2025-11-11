@@ -2,11 +2,15 @@
 
 <div class="text-center">
     <h1 class="display-4">Mandalorian</h1>
-    <select>
-        @foreach (var mision in Model)
-        {
-            <option value=@mision.id>@mision.nombre</option>
-        }
-    </select>
-    <button type="submit">Obtener misión</button>
+
+    <form asp-action="MisionSeleccionada" asp-controller="Home" method="post">
+        <select name="idMision" class="form-select">
+            @foreach (var mision in Model)
+            {
+                <option value="@mision.id">@mision.nombre</option>
+            }
+        </select>
+        <br />
+        <button type="submit">Obtener misión</button>
+    </form>
 </div>

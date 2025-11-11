@@ -1,5 +1,27 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model DTO.DTOs.MisionesWithSelectedMision
+
+<div class="container mt-4 text-center">
+    <h1 class="mb-4">Detalles de la Misión</h1>
+
+    <!-- Select con todas las misiones -->
+    <form asp-action="MisionSeleccionada" asp-controller="Home" method="post">
+        <select name="idMision" class="form-select w-50 mx-auto mb-3">
+            @foreach (var mision in Model.listadoMisiones)
+            {
+                <option value="@mision.id" selected="@(mision.id == Model.misionSeleccionada.id)">
+                    @mision.nombre
+                </option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Ver detalles</button>
+    </form>
+
+    <hr class="my-4" />
+
+    <!-- Detalles de la misión seleccionada -->
+    <div class="card mx-auto shadow-lg p-4" style="max-width: 500px;">
+        <h2 class="mb-3">@Model.misionSeleccionada.nombre</h2>
+        <p><strong>Descripción:</strong> @Model.misionSeleccionada.descripcion</p>
+        <p><strong>Recompensa:</strong> @Model.misionSeleccionada.recompensa créditos</p>
+    </div>
+</div>
