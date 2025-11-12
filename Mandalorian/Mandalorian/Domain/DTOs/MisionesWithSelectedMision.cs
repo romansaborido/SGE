@@ -10,6 +10,10 @@ namespace DTO.DTOs
         #endregion
 
         #region constructores
+        public MisionesWithSelectedMision(List<Mision> listadoMisiones) 
+        {
+            _listadoMisiones = listadoMisiones;
+        }
         public MisionesWithSelectedMision(List<Mision> listadoMisiones, Mision misionSeleccionada) 
         {
             _listadoMisiones = listadoMisiones;

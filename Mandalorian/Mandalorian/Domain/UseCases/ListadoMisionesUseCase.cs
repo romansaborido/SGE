@@ -18,16 +18,14 @@ namespace Domain.UseCases
             _listadoMisiones = listadoMisiones;
         }   
 
-        public List<Mision> getMisiones() 
+        public MisionesWithSelectedMision getMisiones() 
         {
-            DateTime horaActual = DateTime.Now;
-
-            if (horaActual.Hour <= 20)
+            if (comprobarHora())
             {
-                return _listadoMisiones.getMisiones();
+                return new MisionesWithSelectedMision(_listadoMisiones.getMisiones());
             }
 
-            return new List<Mision>();
+            return new MisionesWithSelectedMision();
         }
 
         public Mision getMisionById(int id) 
@@ -46,10 +44,24 @@ namespace Domain.UseCases
 
         public MisionesWithSelectedMision getMisionesWithSelectedMision(int idSeleccionado) 
         {
-            List<Mision> listadoMisiones = getMisiones();
-            Mision misionSeleccionada = getMisionById(idSeleccionado);
-
-            return new MisionesWithSelectedMision(listadoMisiones, misionSeleccionada);
+            if (comprobarHora())
+                return new MisionesWithSelectedMision(_listadoMisiones.getMisiones(), getMisionById(idSeleccionado));
         }
+
+        private Boolean comprobarHora() 
+        {
+            Boolean res = false;
+
+            DateTime horaActual = DateTime.Now;
+
+            if (horaActual.Hour <= 20)
+            {
+                res = true;
+            }
+
+            return res;
+        }
+
+        // COMPLETAR CON LAS EXCEPCIONES
     }
 }   

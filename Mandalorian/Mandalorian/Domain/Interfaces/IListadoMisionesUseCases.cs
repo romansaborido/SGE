@@ -10,8 +10,9 @@ namespace Domain.Interfaces
 {
     public interface IListadoMisionesUseCases
     {
-        List<Mision> getMisiones();
+        MisionesWithSelectedMision getMisiones();
         Mision getMisionById(int id);
         MisionesWithSelectedMision getMisionesWithSelectedMision(int idSeleccionado);
+        Boolean comprobarHora();
     }
 }
