@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Domain.Interfaces.IUseCases;
 using Microsoft.AspNetCore.Mvc;
 using UI.Models;
 
@@ -7,15 +8,17 @@ namespace UI.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IGetListadoPersonasUseCase _listadoPersonasUseCases;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IGetListadoPersonasUseCase listadoPersonasUseCases)
         {
             _logger = logger;
+            _listadoPersonasUseCases = listadoPersonasUseCases;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_listadoPersonasUseCases.getListadoPersonas());
         }
 
         public IActionResult Privacy()

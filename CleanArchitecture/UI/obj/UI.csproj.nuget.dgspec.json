@@ -141,6 +141,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -258,12 +264,6 @@
             "projectReferences": {
               "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj": {
                 "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj"
-              },
-              "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Core\\CompositionRoot.csproj": {
-                "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Core\\CompositionRoot.csproj"
-              },
-              "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Domain\\Domain.csproj"
               }
             }
           }

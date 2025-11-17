@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CompositionRoot\CompositionRoot.csproj" />
-    <ProjectReference Include="..\Core\CompositionRoot.csproj" />
-    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
