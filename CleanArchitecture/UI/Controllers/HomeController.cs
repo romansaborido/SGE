@@ -21,6 +21,11 @@ namespace UI.Controllers
             return View(_listadoPersonasUseCases.getListadoPersonas());
         }
 
+        public IActionResult Details(int id)
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

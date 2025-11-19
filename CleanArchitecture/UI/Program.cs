@@ -23,5 +23,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+    // El ultimo parametro indica el nombre del atributo que se pasara como request
 
 app.Run();
