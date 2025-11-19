@@ -264,6 +264,9 @@
             "projectReferences": {
               "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj": {
                 "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\CompositionRoot\\CompositionRoot.csproj"
+              },
+              "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Domain\\Domain.csproj"
               }
             }
           }
