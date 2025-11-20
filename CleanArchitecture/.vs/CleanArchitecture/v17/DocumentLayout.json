@@ -50,8 +50,7 @@
               "RelativeToolTip": "Data\\Repositories\\ListadoPersonasEmpty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:10:59.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T13:10:59.389Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Data\\DataBase\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:09:02.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T13:09:02.353Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IListadoPersonasRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:08:56.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T13:08:56.28Z"
             },
             {
               "$type": "Document",
@@ -87,7 +84,7 @@
               "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepositoryAzure.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\CleanArchitecture\\Data\\Repositories\\PersonaRepositoryAzure.cs",
               "RelativeToolTip": "Data\\Repositories\\PersonaRepositoryAzure.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T13:08:07.291Z",
               "EditorCaption": ""
@@ -102,8 +99,7 @@
               "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T13:02:00.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T13:02:00.344Z"
             },
             {
               "$type": "Document",

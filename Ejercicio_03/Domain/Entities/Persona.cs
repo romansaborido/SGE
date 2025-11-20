@@ -73,6 +73,7 @@ namespace Domain.Entities
         public int idDepartamento 
         {
             get { return _idDepartamento; }
+            set { _idDepartamento = value; }
         }
         #endregion
     }

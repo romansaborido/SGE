@@ -10,7 +10,7 @@ namespace Domain.Interfaces
     public interface IPersonasRepository
     {
         List<Persona> getPersonas();
-        Persona getPersonaById();
-        Boolean deletePersonaById();
+        Persona getPersonaById(int id);
+        Boolean deletePersonaById(int id);
     }
 }
