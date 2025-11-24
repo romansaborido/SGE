@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepository.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonasRepository.cs",
               "RelativeToolTip": "Data\\Repositories\\PersonasRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwFIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T13:07:41.444Z",
               "EditorCaption": ""
@@ -49,9 +49,10 @@
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:37:46.174Z"
+              "WhenOpened": "2025-11-19T13:37:46.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,9 +62,10 @@
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersonasRepository.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\IPersonasRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IPersonasRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:11:56.267Z"
+              "WhenOpened": "2025-11-19T13:11:56.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

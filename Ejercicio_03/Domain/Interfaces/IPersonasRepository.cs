@@ -11,6 +11,6 @@ namespace Domain.Interfaces
     {
         List<Persona> getPersonas();
         Persona getPersonaById(int id);
-        Boolean deletePersonaById(int id);
+        int deletePersonaById(int id);
     }
 }

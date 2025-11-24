@@ -12,7 +12,7 @@ namespace Data.Repositories
 {
     public class PersonasRepository : IPersonasRepository
     {
-        public bool deletePersonaById(int id)
+        public int deletePersonaById(int id)
         {
             // Creamos la conexion
             SqlConnection miConexion = new SqlConnection();
@@ -23,6 +23,8 @@ namespace Data.Repositories
             // Obtenemos el string de conexion
             miConexion.ConnectionString = Connection.GetConnectionString();
 
+            // Añadimos el parametro ID a nuestro comando
+            miComando.Parameters.Add("@id",System.Data.SqlDbType.Int).Value = id;
 
             try
             {
@@ -34,10 +36,10 @@ namespace Data.Repositories
 
 
                 // Creamos la consulta sql
-                miComando.CommandText = "DELETE FROM Personas WHERE ID = " + id;
+                miComando.CommandText = "DELETE FROM Personas WHERE ID = @id";
 
-                // Ejecutamos la consulta
-
+                // Ejecutamos la consulta y devolvemos su resultado
+                return miComando.ExecuteNonQuery();
 
             } catch (SqlException SqlEx) { throw SqlEx; }
 
