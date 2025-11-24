@@ -1,0 +1,122 @@
+Domain
+	Entities/
+		Departamento.cs
+			+ class Departamento
+				- int _id
+				- string _nombre
+				+ Departamento() {}
+				+ Departamento(int id, string nombre)
+				+ int id { get; set; }
+				+ string nombre { get; set; }
+		Persona.cs
+			+ class Persona
+				- int _id
+        			- string _nombre
+        			- string _apellidos
+        			- string _telefono
+        			- string _direccion
+        			- string _foto
+        			- DateOnly _fechaNacimiento
+        			- int _idDepartamento
+				+ Persona() {}
+				+ Persona(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, int idDepartamento) {}
+				+ int id { get; set; }
+				+ string nombre { get; set; }
+				+ string apellidos { get; set; }
+				+ string telefono { get; set; }
+				+ string direccion { get; set; }
+				+ string foto { get; set; }
+				+ DateOnly fechaNacimiento { get; set; }
+				+ int idDepartamento { get; set; }
+	Interfaces/
+		IPersonaRepository.cs
+			+ interface IPersonaRepository
+				+ List<Persona> getPersonas()
+				+ Persona getPersona(int id)
+				+ int deletePersona(int id)
+				+ int updatePersona(int id, Persona persona)
+				+ int addPersona(Persona persona)
+		IPersonaUseCases.cs
+			+ interface IPersonaUseCases
+				+ List<Persona> getPersonas()
+				+ int deletePersona(int id)
+				+ int updatePersona(int id, Persona persona)
+				+ int addPersona(Persona persona)
+		IDepartamentoRepository.cs
+			+ interface IDepartamentoRepository
+				+ List<Departamento> getDepartamentos()
+				+ Departamento getDepartamento(int id)
+				+ int deleteDepartamento(int id)
+				+ int updateDepartamento(int id, Departamento departamento)
+				+ int addDepartamento(Departamento departamento)
+		IDepartamentoUseCases.cs
+			+ interface IDepartamentoUseCases
+				+ List<Departamento> getDepartamentos()
+				+ int deleteDepartamento(int id)
+				+ int updateDepartamento(int id, Departamento departamento)
+				+ int addDepartamento(Departamento departamento)
+	UseCases/
+		PersonaUseCases.cs
+			+ class PersonaUseCases : IPersonaUseCases
+				- readonly IPersonaRepository _personaRepository
+				+ PersonaUseCases(IPersonaRepository personaRepository) { _personaRepository = personaRepository }
+				+ List<Persona> getPersonas()
+				+ int deletePersona(int id)
+				+ int updatePersona(int id, Persona persona)
+				+ int addPersona(Persona persona)
+		DepartamentoUseCases.cs
+			+ class DepartamentoUseCases : IDepartamentoUseCases
+				- readonly IDepartamentoRepository _departamentoRepository
+				+ DepartamentoUseCases(IDepartamentoRepository departamentoRepository) { _departamentoRepository = departamentoRepository }
+				+ List<Departamento> getDepartamentos()
+				+ int deleteDepartamento(int id)
+				+ int updateDepartamento(int id, Departamento departamento)
+				+ int addDepartamento(Departamento departamento)
+	DTOs/
+		PersonaWithNombreDepartamentoDTO.cs
+			+ class PersonaWithNombreDepartamentoDTO
+				+ int id { get; set; }
+				+ string nombre { get; set; }
+				+ string apellidos { get; set; }
+				+ string telefono { get; set; }
+				+ string direccion { get; set; }
+				+ string foto { get; set; }
+				+ DateOnly fechaNacimiento { get; set; }
+				+ string nombreDepartamento { get; set; }
+				+ PersonaWithDepartamentoDTO() {}
+				+ PersonaWithDepartamentoDTO(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, string nombreDepartamento) {}
+		PersonaWithListadoDepartamentosDTO.cs
+			+ class PersonaWithListadoDepartamentosDTO
+				+ Persona persona { get; set; }
+				+ List<Departamento> { get; set; }
+				+ PersonaWithListadoDepartamentosDTO() {}
+				+ PersonaWithListadoDepartamentosDTO(Persona persona, List<Departamento> departamentos) {}
+UI
+	Models/
+	Controllers/
+		HomeController.cs
+			+ class HomeController
+				+ IActionResult()
+		PersonaController.cs
+			+ class PersonaController
+				- readonly IPersonaUseCases _personaUseCases
+				+ PersonaController(IPersonaUseCases personaUseCases) { _personaUseCases = personaUseCases }
+		DepartamentoController.cs
+	Views/
+		Home/
+			Index.cshtml
+		Persona/
+			Index.cshtml
+		Departamento/
+			Index.cshtml	
+
+
+
+
+*
+DTOs
+
+Cuando le demos a editar persona ->
+	Persona con listado de departamentos
+Cuando le demos a detalles -> 
+	Persona con nombre de departamento

@@ -11,7 +11,10 @@ namespace Domain.Entities
         #region atributos
         private int _id;
         private string _nombre;
-        private int _edad;
+        private string _apellidos;
+        private DateTime _fechaNac;
+        private string _direccion;
+        private string _telefono;
         #endregion
 
         #region constructores
@@ -21,24 +24,39 @@ namespace Domain.Entities
         {
             _id = id;
             _nombre = nombre;
-            _edad = edad;
         }
         #endregion
 
         #region propiedades
-        public int id 
+        public int id
         {
             get { return _id; }
+            set { _id = value; }
         }
-        public string nombre 
-        { 
+        public string nombre
+        {
             get { return _nombre; }
             set { _nombre = value; }
         }
-        public int edad 
+        public string apellidos
         {
-            get { return _edad; }
-            set { _edad = value; }
+            get { return _apellidos; }
+            set { _apellidos = value; }
+        }
+        public DateTime fechaNac
+        {
+            get { return _fechaNac; }
+            set { _fechaNac = value; }
+        }
+        public string direccion
+        {
+            get { return _direccion; }
+            set { _direccion = value; }
+        }
+        public string telefono
+        {
+            get { return _telefono; }
+            set { _telefono = value; }
         }
         #endregion
     }
