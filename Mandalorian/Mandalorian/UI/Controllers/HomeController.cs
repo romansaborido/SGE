@@ -21,17 +21,13 @@ namespace UI.Controllers
 
         public IActionResult Index()
         {
-            var misiones = _listadoMisionesUseCase.getMisiones();
-
-            return View(misiones);
+            return View(_listadoMisionesUseCase.getMisiones());
         }
 
         [HttpPost]
         public IActionResult MisionSeleccionada(int idMision)
         {
-            var dto = _listadoMisionesUseCase.getMisionesWithSelectedMision(idMision);
-
-            return View(dto);
+            return View(_listadoMisionesUseCase.getMisionesWithSelectedMision(idMision));
         }
 
         public IActionResult Privacy()

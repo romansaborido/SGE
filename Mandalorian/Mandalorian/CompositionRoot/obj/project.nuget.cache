@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kMRS7rtECuw=",
+  "dgSpecHash": "xb0axUJ4Dnw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Mandalorian\\Mandalorian\\CompositionRoot\\CompositionRoot.csproj",
+  "projectFilePath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Mandalorian\\Mandalorian\\CompositionRoot\\CompositionRoot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
-    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
-    "C:\\Users\\roman.saborido\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+    "C:\\Users\\rsabo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\rsabo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\rsabo\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }
