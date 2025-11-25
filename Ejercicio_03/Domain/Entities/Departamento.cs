@@ -23,11 +23,12 @@ namespace Domain.Entities
         #endregion
 
         #region propiedades
-        public int id 
+        public int id
         {
             get { return _id; }
+            set { _id = value; }
         }
-        public string nombre 
+        public string nombre
         {
             get { return _nombre; }
             set { _nombre = value; }

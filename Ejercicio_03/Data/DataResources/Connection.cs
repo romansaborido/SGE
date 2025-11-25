@@ -8,8 +8,7 @@ namespace Data.DataResources
 {
     internal class Connection
     {
-        public static string GetConnectionString()
-        {
+        public static string GetConnectionString() {
             return "server=saborido.database.windows.net;database=PersonaDB;uid=roman;pwd=Vivaerbeti1234;trustServerCertificate = true;";
         }
     }

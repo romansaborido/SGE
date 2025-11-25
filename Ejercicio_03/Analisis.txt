@@ -39,6 +39,7 @@ Domain
 		IPersonaUseCases.cs
 			+ interface IPersonaUseCases
 				+ List<Persona> getPersonas()
+				+ Persona getPersona(int id)
 				+ int deletePersona(int id)
 				+ int updatePersona(int id, Persona persona)
 				+ int addPersona(Persona persona)
@@ -52,6 +53,7 @@ Domain
 		IDepartamentoUseCases.cs
 			+ interface IDepartamentoUseCases
 				+ List<Departamento> getDepartamentos()
+				+ Departamento getDepartamento(int id)
 				+ int deleteDepartamento(int id)
 				+ int updateDepartamento(int id, Departamento departamento)
 				+ int addDepartamento(Departamento departamento)
@@ -60,10 +62,12 @@ Domain
 			+ class PersonaUseCases : IPersonaUseCases
 				- readonly IPersonaRepository _personaRepository
 				+ PersonaUseCases(IPersonaRepository personaRepository) { _personaRepository = personaRepository }
-				+ List<Persona> getPersonas()
-				+ int deletePersona(int id)
-				+ int updatePersona(int id, Persona persona)
-				+ int addPersona(Persona persona)
+        			+ List<Departamento> getListadoDepartamentos() 
+        			+ PersonaWithNombreDepDTO getPersona(int id)
+        			+ List<PersonaWithNombreDepDTO> getPersonas()
+        			+ PersonaWithListadoDepDTO GetPersonaWithListadoDepDTO(int id) 
+        			+ int updatePersona(int id, Persona persona)
+        			+ int deletePersona(int id) 
 		DepartamentoUseCases.cs
 			+ class DepartamentoUseCases : IDepartamentoUseCases
 				- readonly IDepartamentoRepository _departamentoRepository
@@ -73,8 +77,8 @@ Domain
 				+ int updateDepartamento(int id, Departamento departamento)
 				+ int addDepartamento(Departamento departamento)
 	DTOs/
-		PersonaWithNombreDepartamentoDTO.cs
-			+ class PersonaWithNombreDepartamentoDTO
+		PersonaWithNombreDepDTO.cs
+			+ class PersonaWithNombreDepDTO
 				+ int id { get; set; }
 				+ string nombre { get; set; }
 				+ string apellidos { get; set; }
@@ -83,40 +87,77 @@ Domain
 				+ string foto { get; set; }
 				+ DateOnly fechaNacimiento { get; set; }
 				+ string nombreDepartamento { get; set; }
-				+ PersonaWithDepartamentoDTO() {}
-				+ PersonaWithDepartamentoDTO(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, string nombreDepartamento) {}
+				+ PersonaWithNombreDepDTO() {}
+				+ PersonaWithNombreDepDTO(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, string nombreDepartamento) {}
 		PersonaWithListadoDepartamentosDTO.cs
 			+ class PersonaWithListadoDepartamentosDTO
 				+ Persona persona { get; set; }
 				+ List<Departamento> { get; set; }
 				+ PersonaWithListadoDepartamentosDTO() {}
 				+ PersonaWithListadoDepartamentosDTO(Persona persona, List<Departamento> departamentos) {}
+Data
+	DataResources/
+		Connection.cs
+			internal class Connection
+				+ static String getConnectionString()
+	Repositories/
+		PersonaRepository.cs
+			+ class PersonaRepository : IPersonaRepository
+				+ List<Persona> getPersonas()
+				+ Persona getPersona(int id)
+				+ int deletePersona(int id)
+				+ int updatePersona(int id, Persona persona)
+				+ int addPersona(Persona persona)
+		DepartamentoRepository.cs
+			+ class DepartamentoRepository : IDepartamentoRepository
+				+ List<Departamento> getDepartamentos()
+				+ Departamento getDepartamento(int id)
+				+ int deleteDepartamento(int id)
+				+ int updateDepartamento(int id, Departamento departamento)
+				+ int addDepartamento(Departamento departamento)		
 UI
 	Models/
 	Controllers/
 		HomeController.cs
 			+ class HomeController
-				+ IActionResult()
+				+ IActionResult Index()
 		PersonaController.cs
 			+ class PersonaController
 				- readonly IPersonaUseCases _personaUseCases
 				+ PersonaController(IPersonaUseCases personaUseCases) { _personaUseCases = personaUseCases }
+				+ IActionResult Index() // Muestra el listado de personas
+				+ IActionResult Detalles(int id) // Muestra los detalles de una persona
+				+ IActionResult Editar(int id) // Muestra el formulario para editar
+				+ IActionResult Editar(Persona persona) [HttpPost] // Obtiene los datos de la nueva persona
+				+ IActionResult Delete(int id) [HttpGet] // Muestra la pantalla de confirmacion
+				+ IActionResult Delete(int id) [HttpPost]// Obtiene el si o no de la vista de confirmacion de eliminar al controlador
+				+ IActionResult Add() [HttpGet] // Muestra el formulario para añadir los datos de la persona
+				+ IActionResult Add(Persona persona) [HttpPost] // Obtiene la nueva persona del formulario y la añade
+				
 		DepartamentoController.cs
-	Views/
+			+ class DepartamentoController
+				- readonly IDepartamentoUseCases _departamentoUseCases
+				+ DepartamentoController(IDepartamentoUseCases departamentoUseCases) { _departamentoUseCases = departamentoUseCases }
+				+ IActionResult Index() // Muestra el listado de departamentos getDepartamentos
+				+ IActionResult Detalles(int id) // Muestra los detalles del departamento getDepartamento
+				+ IActionResult Editar(int id) // Muestra el formulario para editar el departamento seleccionado getDepartamento
+				+ IActionResult Editar(Departamento departamento) [HttpPost] // Obtiene los datos del nuevo departamento updateDepartamento
+				+ IActionResult Delete(int id) // Muestra la pantalla de confirmacion getDepartamento
+				+ IActionResult Delete(int id) [HttpPost] // Obtiene el si o no de la vista de confirmacion de eliminar al controlador deleteDepartamento
+				+ IActionResult Add() // Muestra el formulario para añadir los datos del departamento
+				+ IActionResult Add(Departamento departamento) [HttpPost] // Obtiene el nuevo departamento del formulario y lo añade addDepartamento
+	Views/ 
 		Home/
 			Index.cshtml
 		Persona/
 			Index.cshtml
+			Detalles.cshtml
+			Editar.cshtml
+			Delete.cshtml
+			Add.cshtml
 		Departamento/
-			Index.cshtml	
-
-
-
-
-*
-DTOs
-
-Cuando le demos a editar persona ->
-	Persona con listado de departamentos
-Cuando le demos a detalles -> 
-	Persona con nombre de departamento
+			Index.cshtml
+			Detalles.cshtml
+			Editar.cshtml
+			Delete.cshtml
+			Add.cshtml

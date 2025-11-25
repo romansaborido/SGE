@@ -21,7 +21,7 @@ namespace Domain.Entities
 
         #region constructores
         public Persona() { }
-        public Persona(int id, string nombre, string apellidos, string telefono, string direccion, string foto, string fechaNacimiento, int idDepartamento) 
+        public Persona(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, int idDepartamento)
         {
             _id = id;
             _nombre = nombre;
@@ -35,42 +35,42 @@ namespace Domain.Entities
         #endregion
 
         #region propiedades
-        public int id 
+        public int id
         {
             get { return _id; }
             set { _id = value; } // Se lo he puesto porque cuando estoy obteniendo los datos de la BD tengo que actualizarlo
         }
-        public string nombre 
+        public string nombre
         {
             get { return _nombre; }
             set { _nombre = value; }
         }
-        public string apellidos 
+        public string apellidos
         {
             get { return _apellidos; }
             set { _apellidos = value; }
         }
-        public string telefono 
+        public string telefono
         {
             get { return _telefono; }
             set { _telefono = value; }
         }
-        public string direccion 
+        public string direccion
         {
             get { return _direccion; }
             set { _direccion = value; }
         }
-        public string foto 
+        public string foto
         {
             get { return _foto; }
             set { _foto = value; }
         }
-        public DateOnly fechaNacimiento 
+        public DateOnly fechaNacimiento
         {
             get { return _fechaNacimiento; }
             set { _fechaNacimiento = value; }
         }
-        public int idDepartamento 
+        public int idDepartamento
         {
             get { return _idDepartamento; }
             set { _idDepartamento = value; }
