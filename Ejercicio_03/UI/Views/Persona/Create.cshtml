@@ -1,0 +1,66 @@
+﻿@model List<Domain.Entities.Departamento>
+
+<h1>Crear Persona</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Nombre -->
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input name="nombre" class="form-control" />
+            </div>
+
+            <!-- Apellidos -->
+            <div class="form-group">
+                <label for="apellidos">Apellidos</label>
+                <input name="apellidos" class="form-control" />
+            </div>
+
+            <!-- Teléfono -->
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input name="telefono" class="form-control" />
+            </div>
+
+            <!-- Dirección -->
+            <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <input name="direccion" class="form-control" />
+            </div>
+
+            <!-- Foto -->
+            <div class="form-group">
+                <label for="foto">Foto</label>
+                <input name="foto" class="form-control" />
+            </div>
+
+            <!-- Fecha de nacimiento -->
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fechaNacimiento" class="form-control" />
+            </div>
+
+            <!-- Departamento -->
+            <div class="form-group">
+                <label for="departamentoId">Departamento</label>
+                <select name="idDepartamento" class="form-control">
+                    <option value="">Seleccione un departamento</option>
+                    @foreach (var dep in Model)
+                    {
+                        <option value="@dep.id">@dep.nombre</option>
+                    }
+                </select>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

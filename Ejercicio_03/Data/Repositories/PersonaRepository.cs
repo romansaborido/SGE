@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace Data.Repositories
 {
@@ -28,7 +29,7 @@ namespace Data.Repositories
 
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "INSERT INTO Persona (Nombre, Apellidos, Telefono, Direccion, Foto, FechaNacimiento, IDDepartamento) VALUES (@Nombre, @Apellidos, @Telefono, @Direccion, @Foto, @FechaNacimiento, @IDDepartamento)";
+                miComando.CommandText = "INSERT INTO Personas (Nombre, Apellidos, Telefono, Direccion, Foto, FechaNacimiento, IDDepartamento) VALUES (@Nombre, @Apellidos, @Telefono, @Direccion, @Foto, @FechaNacimiento, @IDDepartamento)";
 
                 // Asignamos los valores de la persona a la consulta
                 miComando.Parameters.AddWithValue("@Nombre", persona.nombre);
@@ -37,7 +38,7 @@ namespace Data.Repositories
                 miComando.Parameters.AddWithValue("@Direccion", persona.direccion);
                 miComando.Parameters.AddWithValue("@Foto", persona.foto);
                 miComando.Parameters.AddWithValue("@FechaNacimiento", persona.fechaNacimiento);
-                miComando.Parameters.AddWithValue("IDDepartamento", persona.idDepartamento);
+                miComando.Parameters.AddWithValue("@IDDepartamento", persona.idDepartamento);
 
                 // Ejecutamos la consulta y devolvemos su resultado
                 return miComando.ExecuteNonQuery();
@@ -88,6 +89,57 @@ namespace Data.Repositories
 
 
 
+        }
+
+        public int updatePersona(int id, Persona persona)
+        {
+            // Creamos la conexion
+            SqlConnection miConexion = new SqlConnection();
+
+            // Creamos el comando
+            SqlCommand miComando = new SqlCommand();
+
+            // Obtenemos el string de conexion
+            miConexion.ConnectionString = Connection.GetConnectionString();
+
+            try
+            {
+                // Abrimos la conexion
+                miConexion.Open();
+
+                // Asociamos el comando a la conexion
+                miComando.Connection = miConexion;
+
+
+                // Creamos la consulta
+                miComando.CommandText = "UPDATE Personas SET " +
+                                                        "Nombre = @Nombre, " +
+                                                        "Apellidos = @Apellidos, " +
+                                                        "Telefono = @Telefono, " +
+                                                        "Direccion = @Direccion, " +
+                                                        "Foto = @Foto, " +
+                                                        "FechaNacimiento = @FechaNacimiento, " +
+                                                        "IDDepartamento = @IDDepartamento " +
+                                        "WHERE ID = @Id";
+
+                // Asignamos los valores de la persona a la consulta
+                miComando.Parameters.AddWithValue("@Id", id);
+                miComando.Parameters.AddWithValue("@Nombre", persona.nombre);
+                miComando.Parameters.AddWithValue("@Apellidos", persona.apellidos);
+                miComando.Parameters.AddWithValue("@Telefono", persona.telefono);
+                miComando.Parameters.AddWithValue("@Direccion", persona.direccion);
+                miComando.Parameters.AddWithValue("@Foto", persona.foto);
+                miComando.Parameters.AddWithValue("@FechaNacimiento", persona.fechaNacimiento);
+                miComando.Parameters.AddWithValue("@IDDepartamento", persona.idDepartamento);
+
+                // Ejecutamos la consulta y devolvemos su resultado
+                return miComando.ExecuteNonQuery();
+            }
+            catch (SqlException SqlEx)
+            {
+                Console.WriteLine(SqlEx.ToString());
+                throw;
+            }
         }
 
         public Persona getPersona(int id)
@@ -231,57 +283,6 @@ namespace Data.Repositories
 
             // Devolvemos el listado de personas
             return listaPersonas;
-        }
-
-        public int updatePersona(int id, Persona persona)
-        {
-            // Creamos la conexion
-            SqlConnection miConexion = new SqlConnection();
-
-            // Creamos el comando
-            SqlCommand miComando = new SqlCommand();
-
-            // Obtenemos el string de conexion
-            miConexion.ConnectionString = Connection.GetConnectionString();
-
-            try
-            {
-                // Abrimos la conexion
-                miConexion.Open();
-
-                // Asociamos el comando a la conexion
-                miComando.Connection = miConexion;
-
-
-                // Creamos la consulta
-                miComando.CommandText = "UPDATE Persona SET " +
-                                                        "Nombre = @Nombre, " +
-                                                        "Apellidos = @Apellidos, " +
-                                                        "Telefono = @Telefono, " +
-                                                        "Direccion = @Direccion, " +
-                                                        "Foto = @Foto, " +
-                                                        "FechaNacimiento = @FechaNacimiento, " +
-                                                        "IDDepartamento = @IDDepartamento " +
-                                        "WHERE ID = @Id";
-
-                // Asignamos los valores de la persona a la consulta
-                miComando.Parameters.AddWithValue("@Id", id);
-                miComando.Parameters.AddWithValue("@Nombre", persona.nombre);
-                miComando.Parameters.AddWithValue("@Apellidos", persona.apellidos);
-                miComando.Parameters.AddWithValue("@Telefono", persona.telefono);
-                miComando.Parameters.AddWithValue("@Direccion", persona.direccion);
-                miComando.Parameters.AddWithValue("@Foto", persona.foto);
-                miComando.Parameters.AddWithValue("@FechaNacimiento", persona.fechaNacimiento);
-                miComando.Parameters.AddWithValue("@IDDepartamento", persona.idDepartamento);
-
-                // Ejecutamos la consulta y devolvemos su resultado
-                return miComando.ExecuteNonQuery();
-            }
-            catch (SqlException SqlEx) 
-            {
-                Console.WriteLine(SqlEx.ToString());
-                throw;
-            }
         }
     }
 }

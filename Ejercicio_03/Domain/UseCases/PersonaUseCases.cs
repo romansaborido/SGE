@@ -34,7 +34,7 @@ namespace Domain.UseCases
             string nombreDepartamento = _departamentoRepository.getDepartamento(persona.idDepartamento).nombre;
 
             // Creamos el DTO
-            PersonaWithNombreDepDTO personaDTO = new PersonaWithNombreDepDTO(persona.id, persona.nombre, persona.apellidos, persona.telefono, persona.direccion, persona.foto, persona.fechaNacimiento, nombreDepartamento);
+            PersonaWithNombreDepDTO personaDTO = new PersonaWithNombreDepDTO(persona, _departamentoRepository);
 
             // Devolvemos el DTO
             return personaDTO;
@@ -55,7 +55,7 @@ namespace Domain.UseCases
                 string nombreDepartamento = _departamentoRepository.getDepartamento(persona.idDepartamento).nombre;
 
                 // Creamos el DTO
-                PersonaWithNombreDepDTO personaDTO = new PersonaWithNombreDepDTO(persona.id, persona.nombre, persona.apellidos, persona.telefono, persona.direccion, persona.foto, persona.fechaNacimiento, nombreDepartamento);
+                PersonaWithNombreDepDTO personaDTO = new PersonaWithNombreDepDTO(persona, _departamentoRepository);
 
                 // Añadimos el DTO a la lista
                 listadoDTOs.Add(personaDTO);
@@ -68,7 +68,7 @@ namespace Domain.UseCases
         public PersonaWithListadoDepDTO GetPersonaWithListadoDepDTO(int id) 
         {
             // Creamos el DTO
-            PersonaWithListadoDepDTO personaListado = new PersonaWithListadoDepDTO(_personaRepository.getPersona(id), _departamentoRepository.getDepartamentos());
+            PersonaWithListadoDepDTO personaListado = new PersonaWithListadoDepDTO(_personaRepository.getPersona(id), _departamentoRepository);
 
             // Devolvemos el listado
             return personaListado;

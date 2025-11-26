@@ -1,0 +1,58 @@
+﻿@model Domain.DTOs.PersonaWithListadoDepDTO
+
+
+<h1>Edit</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Nombre</label>
+                <input asp-for="@Model.persona.nombre" class="form-control" />
+                <span asp-validation-for="@Model.persona.nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Apellidos</label>
+                <input asp-for="@Model.persona.apellidos" class="form-control" />
+                <span asp-validation-for="@Model.persona.apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Teléfono</label>
+                <input asp-for="@Model.persona.telefono" class="form-control" />
+                <span asp-validation-for="@Model.persona.telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Dirección</label>
+                <input asp-for="@Model.persona.direccion" class="form-control" />
+                <span asp-validation-for="@Model.persona.direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foto</label>
+                <input asp-for="@Model.persona.foto" class="form-control" />
+                <span asp-validation-for="@Model.persona.foto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="persona.idDepartamento" class="control-label">Departamento</label>
+                <select asp-for="persona.idDepartamento"
+                        asp-items="@(new SelectList(Model.listadoDepartamentos, "id", "nombre", Model.persona.idDepartamento))"
+                        class="form-control">
+                    <option value="">Seleccione un departamento</option>
+                </select>
+                <span asp-validation-for="persona.idDepartamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

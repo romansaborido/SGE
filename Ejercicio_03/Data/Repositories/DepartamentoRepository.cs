@@ -50,6 +50,8 @@ namespace Data.Repositories
 
         public int deleteDepartamento(int id)
         {
+            Console.WriteLine("MiMetodo ha sido llamado");
+
             // Creamos la conexion
             SqlConnection miConexion = new SqlConnection();
 
@@ -70,7 +72,7 @@ namespace Data.Repositories
 
 
                 // Creamos la consulta Sql
-                miComando.CommandText = "DELETE FROM Departamento WHERE ID = @ID";
+                miComando.CommandText = "DELETE FROM Departamentos WHERE ID = @ID";
 
                 // Asignamos el valor al parametro de la consulta
                 miComando.Parameters.AddWithValue("@ID", id);
@@ -165,8 +167,6 @@ namespace Data.Repositories
             // Creamos la lista de departamentos que vamos a devolver
             List<Departamento> departamentos = new List<Departamento>();
 
-            // Creamos el departamento que vamos a ir añadiendo
-            Departamento departamento = new Departamento();
 
             try
             {
@@ -177,7 +177,7 @@ namespace Data.Repositories
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta sql
-                miComando.CommandText = "SELECT * FROM Personas";
+                miComando.CommandText = "SELECT * FROM Departamentos";
 
                 // Ejecutamos la consulta y obtenemos el resultado
                 miLector = miComando.ExecuteReader();
@@ -187,6 +187,9 @@ namespace Data.Repositories
                 {
                     while (miLector.Read())
                     {
+                        // Creamos el departamento que vamos a ir añadiendo
+                        Departamento departamento = new Departamento();
+
                         // Obtenemos el departamento
                         departamento.id = (int)miLector["ID"];
                         departamento.nombre = (string)miLector["Nombre"];
@@ -231,7 +234,7 @@ namespace Data.Repositories
                 miComando.Connection = miConexion;
 
                 // Creamos la consulta sql
-                miComando.CommandText = "UPDATE Departamento SET Nombre = @Nombre WHERE ID = @Id";
+                miComando.CommandText = "UPDATE Departamentos SET Nombre = @Nombre WHERE ID = @Id";
 
                 // Asignamos los valores a los parametros
                 miComando.Parameters.AddWithValue("@Nombre", departamento.nombre);

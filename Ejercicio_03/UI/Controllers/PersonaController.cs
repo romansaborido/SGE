@@ -25,67 +25,40 @@ namespace UI.Controllers
             return View(_personaUseCases.getPersona(id));
         }
 
-        // GET: PersonaController/Create
         public ActionResult Create()
         {
-            return View();
+            return View(_personaUseCases.getListadoDepartamentos());
         }
 
-        // POST: PersonaController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Persona persona)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _personaUseCases.addPersona(persona);
+            return RedirectToAction("Index");
         }
 
-        // GET: PersonaController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            return View(_personaUseCases.GetPersonaWithListadoDepDTO(id));
         }
 
-        // POST: PersonaController/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Persona persona)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _personaUseCases.updatePersona(id, persona);
+            return RedirectToAction("Index");
         }
 
-        // GET: PersonaController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(_personaUseCases.getPersona(id));
         }
 
-        // POST: PersonaController/Delete/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteConfirmed(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _personaUseCases.deletePersona(id);
+            return RedirectToAction("Index");
         }
     }
 }

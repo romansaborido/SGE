@@ -1,97 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\",
+  "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\interfaces\\departamento\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\departamento\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\interfaces\\persona\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\persona\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\interfaces\\persona\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\persona\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithnombredepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithnombredepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personawithnombredepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\departamento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\departamento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\departamento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\departamento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\interfaces\\departamento\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\departamento\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\interfaces\\persona\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\persona\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\interfaces\\persona\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\persona\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -102,17 +134,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "PersonaWithNombreDepDTO.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:30:44.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonaWithListadoDepDTO.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:46:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:15:31.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Details.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Persona\\Details.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Details.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Details.cshtml",
               "RelativeToolTip": "UI\\Views\\Persona\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T17:33:40.067Z",
               "EditorCaption": ""
@@ -120,140 +191,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T17:23:09.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "UI\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "UI\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T17:22:02.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Persona\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Persona\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T17:18:42.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Persona\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Persona\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwDEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:03:25.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
               "RelativeToolTip": "UI\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAawCkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T17:08:34.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T16:53:09.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T16:53:18.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T16:59:06.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InversifyConf.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\InversifyConf.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
-              "RelativeToolTip": "CompositionRoot\\InversifyConf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T16:46:26.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
-              "RelativeDocumentMoniker": "Data\\DataResources\\Connection.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
-              "RelativeToolTip": "Data\\DataResources\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:01:37.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepository.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\PersonaRepository.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAwwIwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:13:51.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "DepartamentoUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\DepartamentoUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
               "RelativeToolTip": "Domain\\UseCases\\DepartamentoUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,146 +242,290 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PersonaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeToolTip": "Domain\\UseCases\\PersonaUseCases.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCoAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:15:31.532Z",
+              "WhenOpened": "2025-11-24T17:13:51.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IDepartamentoUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:02:29.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PersonaWithNombreDepDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:30:44.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PersonaWithListadoDepDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:46:13.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IPersonaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:02:15.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
-              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:06:41.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IPersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:14:41.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\DepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\DepartamentoRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAPgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:16:11.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
               "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T17:46:03.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IDepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:14:38.449Z",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T16:53:18.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:16:11.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Departamento\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Departamento\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:50:47.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "UI\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwEEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T11:29:26.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:53:09.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Departamento\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Departamento\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:40:34.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Details.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Departamento\\Details.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Details.cshtml",
+              "RelativeToolTip": "UI\\Views\\Departamento\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:36:23.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Departamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Departamento\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Departamento\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:31:29.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Persona\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Persona\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:16:16.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
+              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:06:41.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Create.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Persona\\Create.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Create.cshtml",
+              "RelativeToolTip": "UI\\Views\\Persona\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:29:01.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Departamento\\IDepartamentoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:02:29.813Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:14:38.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InversifyConf.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\InversifyConf.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
+              "RelativeToolTip": "CompositionRoot\\InversifyConf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:46:26.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T16:59:06.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "UI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T17:22:02.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T17:23:09.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\DataResources\\Connection.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
+              "RelativeToolTip": "Data\\DataResources\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:01:37.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IPersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Persona\\IPersonaUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:02:15.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Persona\\IPersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:14:41.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T17:46:19.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:46:19.057Z"
             }
           ]
         }

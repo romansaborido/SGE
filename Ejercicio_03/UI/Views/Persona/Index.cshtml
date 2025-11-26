@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Domain.DTOs.PersonaWithNombreDepDTO>
 
 
-<h1>Index</h1>
+<h1>Personas</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -16,45 +16,33 @@
                 Apellidos
             </th>
             <th>
-                Telefono
-            </th>
-            <th>
-                Direccion
+                Departamento
             </th>
             <th>
                 Foto
-            </th>
-            <th>
-                Departamento
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.nombre)
+                @Html.DisplayFor(modelItem => item.persona.nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.apellidos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.telefono)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.direccion)
-            </td>
-            <td>
-                <img src="@item.foto" alt="@item.nombre" style="width:100px; height:auto;" />
+                    @Html.DisplayFor(modelItem => item.persona.apellidos)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.nombreDepartamento)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id })
-                @Html.ActionLink("Details", "Details", new { id = item.id })
-                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                    <img src="@item.persona.foto" alt="@item.persona.nombre" style="width:100px; height:auto;" />
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.persona.id })
+                    @Html.ActionLink("Details", "Details", new { id = item.persona.id })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.persona.id })
             </td>
         </tr>
 }

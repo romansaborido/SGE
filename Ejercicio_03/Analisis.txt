@@ -36,6 +36,7 @@ Domain
 				+ int deletePersona(int id)
 				+ int updatePersona(int id, Persona persona)
 				+ int addPersona(Persona persona)
+				+ int countPersonasByDep(int idDepartamento)
 		IPersonaUseCases.cs
 			+ interface IPersonaUseCases
 				+ List<Persona> getPersonas()
@@ -61,7 +62,8 @@ Domain
 		PersonaUseCases.cs
 			+ class PersonaUseCases : IPersonaUseCases
 				- readonly IPersonaRepository _personaRepository
-				+ PersonaUseCases(IPersonaRepository personaRepository) { _personaRepository = personaRepository }
+				- readonly IDepartamentoRepository _departamentoRepository
+				+ PersonaUseCases(IPersonaRepository personaRepository, IDepartamentoRepository departamentoRepository) { _personaRepository = personaRepository; _departamentoRepository = departamentoRepository }
         			+ List<Departamento> getListadoDepartamentos() 
         			+ PersonaWithNombreDepDTO getPersona(int id)
         			+ List<PersonaWithNombreDepDTO> getPersonas()
@@ -79,22 +81,14 @@ Domain
 	DTOs/
 		PersonaWithNombreDepDTO.cs
 			+ class PersonaWithNombreDepDTO
-				+ int id { get; set; }
-				+ string nombre { get; set; }
-				+ string apellidos { get; set; }
-				+ string telefono { get; set; }
-				+ string direccion { get; set; }
-				+ string foto { get; set; }
-				+ DateOnly fechaNacimiento { get; set; }
-				+ string nombreDepartamento { get; set; }
-				+ PersonaWithNombreDepDTO() {}
-				+ PersonaWithNombreDepDTO(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateOnly fechaNacimiento, string nombreDepartamento) {}
-		PersonaWithListadoDepartamentosDTO.cs
-			+ class PersonaWithListadoDepartamentosDTO
-				+ Persona persona { get; set; }
-				+ List<Departamento> { get; set; }
-				+ PersonaWithListadoDepartamentosDTO() {}
-				+ PersonaWithListadoDepartamentosDTO(Persona persona, List<Departamento> departamentos) {}
+				+ Persona persona { get; }
+				+ string nombreDepartamento { get; }
+				+ PersonaWithNombreDepDTO(Persona persona) {}
+		PersonaWithListadoDepDTO.cs
+			+ class PersonaWithListadoDepDTO
+				+ Persona persona { get; }
+				+ List<Departamento> listadoDepartamentos { get; }
+				+ PersonaWithListadoDepartamentosDTO(Persona persona) {}
 Data
 	DataResources/
 		Connection.cs
@@ -108,6 +102,7 @@ Data
 				+ int deletePersona(int id)
 				+ int updatePersona(int id, Persona persona)
 				+ int addPersona(Persona persona)
+				+ int countPersonasByDep(int idDepartamento)
 		DepartamentoRepository.cs
 			+ class DepartamentoRepository : IDepartamentoRepository
 				+ List<Departamento> getDepartamentos()
@@ -141,7 +136,7 @@ UI
 				+ IActionResult Index() // Muestra el listado de departamentos getDepartamentos
 				+ IActionResult Detalles(int id) // Muestra los detalles del departamento getDepartamento
 				+ IActionResult Editar(int id) // Muestra el formulario para editar el departamento seleccionado getDepartamento
-				+ IActionResult Editar(Departamento departamento) [HttpPost] // Obtiene los datos del nuevo departamento updateDepartamento
+				+ IActionResult Editar(int id, Departamento departamento) [HttpPost] // Obtiene los datos del nuevo departamento updateDepartamento
 				+ IActionResult Delete(int id) // Muestra la pantalla de confirmacion getDepartamento
 				+ IActionResult Delete(int id) [HttpPost] // Obtiene el si o no de la vista de confirmacion de eliminar al controlador deleteDepartamento
 				+ IActionResult Add() // Muestra el formulario para añadir los datos del departamento
@@ -161,3 +156,8 @@ UI
 			Editar.cshtml
 			Delete.cshtml
 			Add.cshtml
+
+
+
+
+executeScalar, para ejecutar consultas que devuelven unicamente un registro
