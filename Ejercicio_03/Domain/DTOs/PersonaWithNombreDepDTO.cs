@@ -9,16 +9,14 @@ using Domain.Interfaces;
 namespace Domain.DTOs
 {
     public class PersonaWithNombreDepDTO
-    {
-		private IDepartamentoRepository _departamentoRepository;
+	{
 		public Persona persona { get; }
 		public string nombreDepartamento { get; }
 		public PersonaWithNombreDepDTO() { }
-		public PersonaWithNombreDepDTO(Persona persona, IDepartamentoRepository departamentoRepository) 
+		public PersonaWithNombreDepDTO(Persona persona, string nombreDepartamento) 
 		{
-			_departamentoRepository = departamentoRepository;
 			this.persona = persona;
-			this.nombreDepartamento = _departamentoRepository.getDepartamento(persona.idDepartamento).nombre;
+			this.nombreDepartamento = nombreDepartamento;
 		}
     }
 }

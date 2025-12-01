@@ -49,9 +49,7 @@ namespace Data.Repositories
         }
 
         public int deleteDepartamento(int id)
-        {
-            Console.WriteLine("MiMetodo ha sido llamado");
-
+        { 
             // Creamos la conexion
             SqlConnection miConexion = new SqlConnection();
 

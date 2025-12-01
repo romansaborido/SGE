@@ -3,6 +3,15 @@
 <h1>Crear Persona</h1>
 
 <hr />
+
+<!-- Mensaje -->
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-info">
+        @ViewBag.Mensaje
+    </div>
+}
+
 <div class="row">
     <div class="col-md-6">
         <form asp-action="Create" method="post">
@@ -60,7 +69,9 @@
 
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
+                <a asp-action="Index">Back to List</a>
             </div>
+
         </form>
     </div>
 </div>

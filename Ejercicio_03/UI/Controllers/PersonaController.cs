@@ -33,8 +33,18 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Create(Persona persona)
         {
-            _personaUseCases.addPersona(persona);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _personaUseCases.addPersona(persona);
+            if (res > 0)
+            {
+                mensaje = "La persona se ha creado correctamente";
+            }
+            else
+            {
+                mensaje = "La persona no se ha podido crear";
+            }
+            ViewBag.mensaje = mensaje;
+            return View(_personaUseCases.getListadoDepartamentos());
         }
 
         public ActionResult Edit(int id)

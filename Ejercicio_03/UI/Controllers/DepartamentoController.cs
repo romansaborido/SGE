@@ -24,25 +24,16 @@ namespace UI.Controllers
             return View(_departamentoUseCases.getDepartamento(id));
         }
 
-        // GET: DepartamentoController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: DepartamentoController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Departamento departamento)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _departamentoUseCases.addDepartamento(departamento);
+            return RedirectToAction("Index");
         }
 
         public ActionResult Edit(int id)

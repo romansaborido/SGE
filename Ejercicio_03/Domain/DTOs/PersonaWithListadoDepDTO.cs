@@ -10,15 +10,13 @@ namespace Domain.DTOs
 {
     public class PersonaWithListadoDepDTO
     {
-        private readonly IDepartamentoRepository _departamentosRepositorio;
         public Persona persona { get; }
         public List<Departamento> listadoDepartamentos { get; }
 	    public PersonaWithListadoDepDTO() { }
-	    public PersonaWithListadoDepDTO(Persona persona, IDepartamentoRepository departamentosRepositorio)
+	    public PersonaWithListadoDepDTO(Persona persona, List<Departamento> listadoDepartamentos)
         {
-            _departamentosRepositorio = departamentosRepositorio;
             this.persona = persona;
-            this.listadoDepartamentos = _departamentosRepositorio.getDepartamentos();
+            this.listadoDepartamentos = listadoDepartamentos;
         }
     }
 }

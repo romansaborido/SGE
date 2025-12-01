@@ -7,41 +7,47 @@
 <div>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Nombre
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.persona.nombre)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Apellidos
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.persona.apellidos)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Teléfono
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.persona.telefono)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Dirección
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.persona.direccion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
+            Fecha Nacimiento
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.persona.fechaNacimiento)
+        </dd>
+        <dt class="col-sm-2">
             Departamento
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.nombreDepartamento)
         </dd>
         <dt class="col-sm-2">
             Foto
         </dt>
         <dd class="col-sm-10">
-            <img src="@Model.persona.foto" alt="@Model.persona.nombre" style="width:100px; height:auto;" />
+            <img src="@Model.persona.foto" alt="@Model.persona.foto" style="width:100px; height:auto;" />
         </dd>
     </dl>
 

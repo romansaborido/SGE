@@ -11,10 +11,12 @@ namespace Domain.UseCases
     public class DepartamentoUseCases : IDepartamentoUseCases
     {
         private readonly IDepartamentoRepository _departamentoRepository;
+        private readonly IPersonaRepository _personaRepository;
 
-        public DepartamentoUseCases(IDepartamentoRepository departamentoRepository) 
+        public DepartamentoUseCases(IDepartamentoRepository departamentoRepository, IPersonaRepository personaRepository) 
         {
             _departamentoRepository = departamentoRepository;
+            _personaRepository = personaRepository;
         }
 
         public int addDepartamento(Departamento departamento)
@@ -24,7 +26,16 @@ namespace Domain.UseCases
 
         public int deleteDepartamento(int id)
         {
-            return _departamentoRepository.deleteDepartamento(id);
+            int res = 0;
+            if (_personaRepository.countPersonasByDep(id) > 0)
+            {
+                res = -1;
+            }
+            else 
+            {
+                res = _departamentoRepository.deleteDepartamento(id);
+            }
+            return res;
         }
 
         public Departamento getDepartamento(int id)

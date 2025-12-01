@@ -284,5 +284,50 @@ namespace Data.Repositories
             // Devolvemos el listado de personas
             return listaPersonas;
         }
+
+        public int countPersonasByDep(int idDepartamento) 
+        {
+            // Creamos la conexion
+            SqlConnection miConexion = new SqlConnection();
+
+            // Creamos el comando
+            SqlCommand miComando = new SqlCommand();
+
+            // Obtenemos el string de conexion
+            miConexion.ConnectionString = Connection.GetConnectionString();
+
+            // Variable para almacenar el resultado
+            int res;
+
+
+            try
+            {
+                // Abrimos la conexion
+                miConexion.Open();
+
+                // Asociamos el comando a la conexion
+                miComando.Connection = miConexion;
+
+                // Creamos la consulta sql
+                miComando.CommandText = "SELECT COUNT(*) FROM Personas WHERE IDDepartamento = @IDDepartamento";
+
+                // Añadimos valor al 
+                miComando.Parameters.AddWithValue("@IDDepartamento", idDepartamento);
+
+                // Ejecutamos la consulta y almacenamos su resultado
+                res = miComando.ExecuteNonQuery();
+
+                // Cerramos la conexion
+                miConexion.Close();
+
+                // Devolvemos el resultado
+                return res;
+            }
+            catch (SqlException SqlEx)
+            {
+                Console.WriteLine(SqlEx.ToString());
+                throw;
+            }
+        }
     }
 }
