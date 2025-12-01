@@ -55,8 +55,18 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Edit(int id, Persona persona)
         {
-            _personaUseCases.updatePersona(id, persona);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _personaUseCases.updatePersona(id, persona);
+            if (res > 0)
+            {
+                mensaje = "La persona se ha modificado correctamente";
+            }
+            else 
+            {
+                mensaje = "La persona no se ha podido modificar";
+            }
+            ViewBag.mensaje = mensaje;
+            return View(_personaUseCases.GetPersonaWithListadoDepDTO(id));
         }
 
         public ActionResult Delete(int id)
@@ -67,8 +77,18 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult DeleteConfirmed(int id)
         {
-            _personaUseCases.deletePersona(id);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _personaUseCases.deletePersona(id);
+            if (res > 0)
+            {
+                mensaje = "La persona se ha eliminado correctamente";
+            }
+            else 
+            {
+                mensaje = "La persona no se ha podido eliminar";
+            }
+            ViewBag.mensaje = mensaje;
+            return View("Delete", _personaUseCases.getPersona(id));
         }
     }
 }

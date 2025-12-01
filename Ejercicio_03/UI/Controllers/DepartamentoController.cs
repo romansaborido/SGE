@@ -32,8 +32,18 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Create(Departamento departamento)
         {
-            _departamentoUseCases.addDepartamento(departamento);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _departamentoUseCases.addDepartamento(departamento);
+            if (res > 0)
+            {
+                mensaje = "El departamento se ha creado correctamente";
+            }
+            else 
+            {
+                mensaje = "El departamento no se ha podido crear";
+            }
+            ViewBag.mensaje = mensaje;
+            return View();
         }
 
         public ActionResult Edit(int id)
@@ -44,8 +54,18 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Edit(int id, Departamento departamento)
         {
-            _departamentoUseCases.updateDepartamento(id, departamento);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _departamentoUseCases.updateDepartamento(id, departamento);
+            if (res > 0)
+            {
+                mensaje = "El departamento se ha modificado correctamente";
+            }
+            else
+            {
+                mensaje = "El departamento no se ha podido modificar correctamente";
+            }
+            ViewBag.mensaje = mensaje;
+            return View(_departamentoUseCases.getDepartamento(id));
         }
 
         public ActionResult Delete(int id)
@@ -56,8 +76,22 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult DeleteConfirmed(int id)
         {
-            _departamentoUseCases.deleteDepartamento(id);
-            return RedirectToAction("Index");
+            string mensaje;
+            int res = _departamentoUseCases.deleteDepartamento(id);
+            if (res > 0)
+            {
+                mensaje = "El departamento se ha eliminado correctamente";
+            }
+            else if (res == -1)
+            {
+                mensaje = "El departamento no se ha podido eliminar porque tiene personas asociadas";
+            }
+            else 
+            {
+                mensaje = "El departamento no se ha podido eliminar";
+            }
+            ViewBag.mensaje = mensaje;
+            return View("Delete", _departamentoUseCases.getDepartamento(id));
         }
     }
 }

@@ -315,7 +315,7 @@ namespace Data.Repositories
                 miComando.Parameters.AddWithValue("@IDDepartamento", idDepartamento);
 
                 // Ejecutamos la consulta y almacenamos su resultado
-                res = miComando.ExecuteNonQuery();
+                res = (int)miComando.ExecuteScalar();
 
                 // Cerramos la conexion
                 miConexion.Close();

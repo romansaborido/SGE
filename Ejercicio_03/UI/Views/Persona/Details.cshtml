@@ -5,6 +5,13 @@
 
 <div>
     <hr />
+    <!-- Mensaje -->
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-info">
+            @ViewBag.Mensaje
+        </div>
+    }
     <dl class="row">
         <dt class = "col-sm-2">
             Nombre

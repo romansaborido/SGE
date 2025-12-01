@@ -5,6 +5,13 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
+    <!-- Mensaje -->
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-info">
+            @ViewBag.Mensaje
+        </div>
+    }
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -14,8 +21,9 @@
             @Html.DisplayFor(model => model.nombre)
         </dd>
     </dl>
-    
-    <form asp-action="DeleteConfirmed">
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>
