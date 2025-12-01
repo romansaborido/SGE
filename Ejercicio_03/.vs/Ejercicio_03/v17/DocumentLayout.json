@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\API\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\API\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\API\\DepartamentoController.cs",
+              "RelativeToolTip": "UI\\Controllers\\API\\DepartamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:25:26.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\API\\PersonaController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\API\\PersonaController.cs",
+              "RelativeToolTip": "UI\\Controllers\\API\\PersonaController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:22:28.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

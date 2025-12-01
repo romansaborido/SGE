@@ -1,88 +1,112 @@
-﻿using Domain.DTOs;
-using Domain.Entities;
+﻿using Domain.Entities;
+using Domain.Interfaces;
 using Domain.UseCases;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
-namespace API.Controllers
+
+[Route("api/[controller]")]
+[ApiController]
+public class PersonasController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class PersonaController : ControllerBase
+    private readonly IPersonaUseCases _personasUseCase;
+
+    public PersonasController(IPersonaUseCases personasUseCase)
     {
-        private readonly PersonaUseCases _personaUseCases;
+        _personasUseCase = personasUseCase;
+    }
 
-        public PersonaController(PersonaUseCases personaUseCases)
+    // GET api/personas
+    [HttpGet]
+    public IActionResult Get()
+    {
+        try
         {
-            _personaUseCases = personaUseCases;
+            var listado = _personasUseCase.getPersonas();
+
+            if (listado == null || !listado.Any())
+                return NoContent();
+
+            return Ok(listado);
         }
-
-        // GET: api/persona
-        [HttpGet]
-        public ActionResult<List<PersonaWithNombreDepDTO>> GetPersonas()
+        catch
         {
-            var personas = _personaUseCases.getPersonas();
-            return Ok(personas);
+            return BadRequest();
         }
+    }
 
-        // GET: api/persona/{id}
-        [HttpGet("{id}")]
-        public ActionResult<PersonaWithNombreDepDTO> GetPersona(int id)
+    // GET api/personas/5
+    [HttpGet("{id}")]
+    public IActionResult Get(int id)
+    {
+        try
         {
-            var persona = _personaUseCases.getPersona(id);
+            var persona = _personasUseCase.getPersona(id);
+
             if (persona == null)
                 return NotFound();
 
             return Ok(persona);
         }
-
-        // GET: api/persona/{id}/detalle
-        [HttpGet("{id}/detalle")]
-        public ActionResult<PersonaWithListadoDepDTO> GetPersonaDetalle(int id)
+        catch
         {
-            var personaDetalle = _personaUseCases.GetPersonaWithListadoDepDTO(id);
-            if (personaDetalle == null)
+            return BadRequest();
+        }
+    }
+
+    // POST api/personas
+    [HttpPost]
+    public IActionResult Post([FromBody] Persona persona)
+    {
+        try
+        {
+            int filas = _personasUseCase.addPersona(persona);
+
+            if (filas == 0)
+                return BadRequest();
+
+            return Ok();
+        }
+        catch
+        {
+            return BadRequest();
+        }
+    }
+
+    // PUT api/personas/5
+    [HttpPut("{id}")]
+    public IActionResult Put(int id, [FromBody] Persona persona)
+    {
+        try
+        {
+            int filas = _personasUseCase.updatePersona(id, persona);
+
+            if (filas == 0)
                 return NotFound();
 
-            return Ok(personaDetalle);
+            return Ok();
         }
-
-        // POST: api/persona
-        [HttpPost]
-        public ActionResult<int> AddPersona([FromBody] Persona persona)
+        catch
         {
-            int id = _personaUseCases.addPersona(persona);
-            return CreatedAtAction(nameof(GetPersona), new { id = id }, id);
+            return BadRequest();
         }
+    }
 
-        // PUT: api/persona/{id}
-        [HttpPut("{id}")]
-        public ActionResult<int> UpdatePersona(int id, [FromBody] Persona persona)
+    // DELETE api/personas/5
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        try
         {
-            int updated = _personaUseCases.updatePersona(id, persona);
-            if (updated == 0)
+            int filas = _personasUseCase.deletePersona(id);
+
+            if (filas == 0)
                 return NotFound();
 
-            return Ok(updated);
+            return Ok();
         }
-
-        // DELETE: api/persona/{id}
-        [HttpDelete("{id}")]
-        public ActionResult<int> DeletePersona(int id)
+        catch
         {
-            int deleted = _personaUseCases.deletePersona(id);
-            if (deleted == 0)
-                return NotFound();
-
-            return Ok(deleted);
-        }
-
-        // GET: api/persona/departamentos
-        [HttpGet("departamentos")]
-        public ActionResult<List<Departamento>> GetDepartamentos()
-        {
-            var departamentos = _personaUseCases.getListadoDepartamentos();
-            return Ok(departamentos);
+            return BadRequest();
         }
     }
 }

@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaUseCases.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
-              "RelativeToolTip": "Domain\\UseCases\\PersonaUseCases.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:47:30.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "UI\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:43:47.879Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -58,9 +24,9 @@
               "RelativeDocumentMoniker": "UI\\Controllers\\API\\PersonaController.cs",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\API\\PersonaController.cs",
               "RelativeToolTip": "UI\\Controllers\\API\\PersonaController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:41:31.616Z",
+              "WhenOpened": "2025-12-01T13:22:28.926Z",
               "EditorCaption": ""
             }
           ]
