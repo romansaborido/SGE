@@ -10,13 +10,18 @@ namespace Domain.DTOs
 {
     public class PersonaWithNombreDepDTO
 	{
-		public Persona persona { get; }
+        #region propiedades
+        public Persona persona { get; }
 		public string nombreDepartamento { get; }
-		public PersonaWithNombreDepDTO() { }
+        #endregion
+
+        #region constructores
+        public PersonaWithNombreDepDTO() { }
 		public PersonaWithNombreDepDTO(Persona persona, string nombreDepartamento) 
 		{
 			this.persona = persona;
 			this.nombreDepartamento = nombreDepartamento;
 		}
+        #endregion
     }
 }

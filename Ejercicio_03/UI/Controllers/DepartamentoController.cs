@@ -16,12 +16,32 @@ namespace UI.Controllers
 
         public ActionResult Index()
         {
-            return View(_departamentoUseCases.getDepartamentos());
+            List<Departamento> departamentos = new List<Departamento>();
+            try
+            {
+                departamentos = _departamentoUseCases.getDepartamentos();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(departamentos);
         }
 
         public ActionResult Details(int id)
         {
-            return View(_departamentoUseCases.getDepartamento(id));
+            Departamento departamento = new Departamento();
+            try
+            {
+                departamento = _departamentoUseCases.getDepartamento(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(departamento);
         }
 
         public ActionResult Create()
@@ -33,7 +53,15 @@ namespace UI.Controllers
         public ActionResult Create(Departamento departamento)
         {
             string mensaje;
-            int res = _departamentoUseCases.addDepartamento(departamento);
+            int res = 0; 
+            try 
+            {
+                res = _departamentoUseCases.addDepartamento(departamento);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "El departamento se ha creado correctamente";
@@ -48,14 +76,32 @@ namespace UI.Controllers
 
         public ActionResult Edit(int id)
         {
-            return View(_departamentoUseCases.getDepartamento(id));
+            Departamento departamento = new Departamento();
+            try
+            {
+                departamento = _departamentoUseCases.getDepartamento(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(departamento);
         }
 
         [HttpPost]
         public ActionResult Edit(int id, Departamento departamento)
         {
             string mensaje;
-            int res = _departamentoUseCases.updateDepartamento(id, departamento);
+            int res = 0;
+            try
+            {
+                res = _departamentoUseCases.updateDepartamento(id, departamento);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "El departamento se ha modificado correctamente";
@@ -70,14 +116,32 @@ namespace UI.Controllers
 
         public ActionResult Delete(int id)
         {
-            return View(_departamentoUseCases.getDepartamento(id));
+            Departamento departamento = new Departamento();
+            try
+            {
+                departamento = _departamentoUseCases.getDepartamento(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(departamento);
         }
 
         [HttpPost]
         public ActionResult DeleteConfirmed(int id)
         {
             string mensaje;
-            int res = _departamentoUseCases.deleteDepartamento(id);
+            int res = 0;
+            try
+            {
+                res = _departamentoUseCases.deleteDepartamento(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "El departamento se ha eliminado correctamente";

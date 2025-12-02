@@ -1,8 +1,10 @@
 ﻿using Domain.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
+using Domain.UseCases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace UI.Controllers
 {
@@ -17,24 +19,62 @@ namespace UI.Controllers
 
         public ActionResult Index()
         {
-            return View(_personaUseCases.getPersonas());
+            List<PersonaWithNombreDepDTO> personas = new List<PersonaWithNombreDepDTO>();
+            try
+            {
+                personas = _personaUseCases.getPersonas();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(personas);
         }
 
         public ActionResult Details(int id)
         {
-            return View(_personaUseCases.getPersona(id));
+            PersonaWithNombreDepDTO persona = new PersonaWithNombreDepDTO();
+            try
+            {
+                persona = _personaUseCases.getPersona(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(persona);
         }
 
         public ActionResult Create()
         {
-            return View(_personaUseCases.getListadoDepartamentos());
+            List<Departamento> departamentos = new List<Departamento>();
+            try
+            {
+                departamentos = _personaUseCases.getListadoDepartamentos();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(departamentos);
         }
 
         [HttpPost]
         public ActionResult Create(Persona persona)
         {
             string mensaje;
-            int res = _personaUseCases.addPersona(persona);
+            int res = 0;
+            try
+            {
+                res = _personaUseCases.addPersona(persona);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "La persona se ha creado correctamente";
@@ -49,14 +89,32 @@ namespace UI.Controllers
 
         public ActionResult Edit(int id)
         {
-            return View(_personaUseCases.GetPersonaWithListadoDepDTO(id));
+            PersonaWithListadoDepDTO dto = new PersonaWithListadoDepDTO();
+            try
+            {
+                dto = _personaUseCases.GetPersonaWithListadoDepDTO(id);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(dto);
         }
 
         [HttpPost]
         public ActionResult Edit(int id, Persona persona)
         {
             string mensaje;
-            int res = _personaUseCases.updatePersona(id, persona);
+            int res = 0;
+            try
+            {
+                res = _personaUseCases.updatePersona(id, persona);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "La persona se ha modificado correctamente";
@@ -71,14 +129,32 @@ namespace UI.Controllers
 
         public ActionResult Delete(int id)
         {
-            return View(_personaUseCases.getPersona(id));
+            PersonaWithNombreDepDTO persona = new PersonaWithNombreDepDTO();
+            try
+            {
+                persona = _personaUseCases.getPersona(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return View("~/Views/Home/Error.cshtml");
+            }
+            return View(persona);
         }
 
         [HttpPost]
         public ActionResult DeleteConfirmed(int id)
         {
             string mensaje;
-            int res = _personaUseCases.deletePersona(id);
+            int res = 0;
+            try
+            {
+                res = _personaUseCases.deletePersona(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             if (res > 0)
             {
                 mensaje = "La persona se ha eliminado correctamente";
