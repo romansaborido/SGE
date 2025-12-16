@@ -25,6 +25,24 @@ namespace UI.Controllers
             return View(_plantaUseCases.getPlantasCategorias(idCategoria));
         }
 
+        public IActionResult Planta(int idPlanta) {
+            return View(_plantaUseCases.getPlantaById(idPlanta));
+        }
+
+        [HttpPost]
+        public IActionResult Planta(int idPlanta, double nuevoPrecio) {
+            int res = _plantaUseCases.cambiarPrecio(idPlanta, nuevoPrecio);
+            if (res > 0)
+            {
+                ViewBag.Mensaje = "El precio se ha modificado correctamente";
+            }
+            else 
+            {
+                ViewBag.Mensaje = "El precio no se ha podido modificar";
+            }
+            return View(_plantaUseCases.getPlantaById(idPlanta));
+        }
+
         public IActionResult Privacy()
         {
             return View();

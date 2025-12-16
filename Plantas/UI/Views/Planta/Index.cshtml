@@ -1,0 +1,65 @@
+﻿@model Domain.DTOs.PlantasCategoriasDTO
+
+
+<h2>Seleccionar categoría</h2>
+
+<!-- FORMULARIO DE SELECCIÓN DE CATEGORÍA -->
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label for="idCategoria">Categoría</label>
+        <select class="form-control" id="idCategoria" name="idCategoria">
+            <option value="">Selecciona una categoría</option>
+            @foreach (var categoria in Model.categorias)
+            {
+                <option value="@categoria.id">
+                    @categoria.nombre
+                </option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">
+        Seleccionar
+    </button>
+</form>
+
+<hr />
+
+<!-- TABLA DE PLANTAS -->
+@if (Model.plantasByCategoria != null && Model.plantasByCategoria.Any())
+{
+    <h3>Plantas de la categoría seleccionada</h3>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre planta</th>
+                <th>Precio</th>
+                <th>Cambiar precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var planta in Model.plantasByCategoria)
+            {
+                <tr>
+                    <td>@planta.nombre</td>
+                    <td>@planta.precio €</td>
+                    <td>
+                        <form asp-action="Planta" method="get">
+                            <input type="hidden" name="idPlanta" value="@planta.id" />
+                            <button type="submit" class="btn btn-warning btn-sm">
+                                Cambiar precio
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">
+        No hay plantas para mostrar. Selecciona una categoría.
+    </p>
+}

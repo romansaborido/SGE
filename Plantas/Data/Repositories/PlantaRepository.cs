@@ -77,8 +77,10 @@ namespace Data.Repositories
 
             foreach (Planta planta in _listadoPlantas)
             {
-                if (planta.id == idPlanta) { planta.precio = nuevoPrecio; }
-                res = idPlanta;
+                if (planta.id == idPlanta) {
+                    planta.precio = nuevoPrecio;
+                    res = idPlanta;
+                }
             }
             return res;
         }
