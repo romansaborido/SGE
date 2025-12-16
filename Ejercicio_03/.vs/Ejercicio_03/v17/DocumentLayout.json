@@ -1,14 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\",
+  "WorkspaceRootPath": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0669AAD6-F4F9-440F-8086-A6F62FB95559}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\ejercicio_03\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithnombredepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personawithnombredepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personawithlistadodepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\departamento\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08791115-27E3-4869-AA48-677BC975F4B6}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDB353A-3559-4171-B465-927AAE659200}|Data\\Data.csproj|solutionrelative:data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|c:\\users\\rsabo\\onedrive\\documentos\\github\\sge\\ejercicio_03\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB4DB69-6D1C-470B-A9F6-6E1C2B83DBEF}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +79,204 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DepartamentoUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\DepartamentoUseCases.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs*",
-              "RelativeToolTip": "Domain\\UseCases\\DepartamentoUseCases.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Title": "InversifyConf.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\InversifyConf.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\CompositionRoot\\InversifyConf.cs",
+              "RelativeToolTip": "CompositionRoot\\InversifyConf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:42:24.546Z",
+              "WhenOpened": "2025-12-09T18:01:13.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "UI\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:27:15.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Departamento\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:45:30.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwIMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:02:14.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:00:36.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaWithNombreDepDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PersonaWithNombreDepDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:58:48.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "UI\\Controllers\\PersonaController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwGkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:45:21.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonaWithListadoDepDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PersonaWithListadoDepDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:40:54.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:36:30.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T17:36:27.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepository.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\Repositories\\PersonaRepository.cs",
               "RelativeToolTip": "Data\\Repositories\\PersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8BAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAIwLgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:15:10.232Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Persona\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\UI\\Views\\Persona\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Persona\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T18:04:16.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Persona.cs",
+              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:30:55.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\Entities\\Departamento.cs",
+              "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:30:54.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\DataResources\\Connection.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Data\\DataResources\\Connection.cs",
+              "RelativeToolTip": "Data\\DataResources\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:25:19.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\rsabo\\OneDrive\\Documentos\\GitHub\\SGE\\Ejercicio_03\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:42:24.546Z"
             }
           ]
         }
