@@ -1,0 +1,112 @@
+Domain
+	Entities/
+		Planta.cs
+			+ class Planta
+				- int _id
+				- string _nombre
+				- string _descripcion
+				- double _precio
+				- int _idCategoria
+				+ int id { get; set; }
+				+ string nombre { get; set; }
+				+ string descripcion { get; set; }
+				+ double precio { get; set; }
+				+ int idCategoria { get; set; }
+				+ Planta()
+				+ Planta(int id, string nombre, string descripcion, double precio, int idCategoria)
+		Categoria.cs
+			+ class Categoria
+				- int _id
+				- string _nombre
+				+ int id { get; set; }
+				+ string nombre { get; set; }
+				+ Categoria()
+				+ Categoria(int id, string nombre)
+	DTOs/
+		PlantasCategoriasDTO.cs
+			+ class PlantasCategoriasDTO
+				+ List<Planta> plantasByCategoria { get; }
+				+ List<Categoria> categorias { get; }
+				+ PlantasCategoriasDTO(List<Planta> plantas, List<Categoria> categorias)
+		PlantaDTO.cs
+			+ class PlantaDTO
+				+ Planta planta { get; }
+				+ string nombreCategoria { get; }
+				+ PlantaDTO(Planta planta, string nombreCategoria)
+	Interfaces/
+		IPlantaRepository.cs
+			+ interface IPlantaRepository
+				List<Planta> getPlantasByCategoria(int idCategoria)
+ 				Planta getPlantaById(int idPlanta)
+				int cambiarPrecio(int idPlanta, double nuevoPrecio)
+		ICategoriaRepository.cs
+			+ interface ICategoriaRepository
+				List<Categoria> getCategorias()
+				String getNombreCategoria(int idCategoria)
+		IPlantaUseCases.cs
+			+ interface IPlantaUseCases
+				PlantasCategoriasDTO getPlantasCategorias(int? idCategoria)
+				PlantaDTO getPlantaById(int idPlanta)
+				int cambiarPrecio(int idPlanta, double nuevoPrecio)
+		ICategoriaUseCases.cs
+			+ interface ICategoriaUseCases
+				List<Categoria> getCategorias()
+				string getNombreCategoria(int idCategoria)
+	
+	UseCases/
+		PlantaUseCases.cs
+			+ class PlantaUseCases : IPlantaUseCases
+				- readonly IPlantaRepository _plantaRepository
+				- readonly ICategoriaUseCases _categoriaUseCases
+				+ PlantaUseCases(IPlantaRepository plantaRepository, ICategoriaUseCases categoriaUseCases)
+				+ PlantasCategoriasDTO getPlantasCategorias(int? idCategoria)
+				+ PlantaDTO getPlantaById(int idPlanta)
+				+ int cambiarPrecio(int idPlanta, double nuevoPrecio)
+		CategoriaUseCases.cs
+			+ class CategoriaUseCases : ICategoriaUseCases
+				- readonly ICategoriaRepository _categoriaRepostory
+				+ CategoriaUseCases(ICategoriaRepository categoriaRepository)
+				+ List<Categoria> getCategorias()
+				+ string getNombreCategoria(int idCategoria)
+Data
+	DataResources/
+		Connection.cs
+			internal class Connection
+				+ string getConnectionString()
+	Repositories/
+		PlantaRepository.cs
+			+ PlantaRepository : IPlantaRepository
+				+ List<Planta> getPlantasByCategoria(int idCategoria)
+ 				+ Planta getPlantaById(int idPlanta)
+				+ int cambiarPrecio(int idPlanta, double nuevoPrecio)
+		CategoriaRepository.cs
+			+ CategoriaRepository : ICategoriaRepository
+				+ List<Categoria> getCategorias()
+				+ String getNombreCategoria(int idCategoria)
+UI
+	Models/
+	Controllers/
+		PlantaController.cs
+			- readonly IPlantaUseCases _plantaUseCases
+			- readonly ICategoriaUseCases _categoriaUseCases
+			+ PlantaController(IPlantaUseCases plantaUseCases, ICategoriaUseCases categoriaUseCases)
+			+ IActionResult Index()
+				return View(_plantaUseCases.getPlantasCategorias())
+			[HttpPost]
+			+ IActionResult Index(int idCategoria)
+				return View(_plantaUseCases.getPlantasCategorias(idCategoria))
+			+ IActionResult Planta()
+				return View(_plantaUseCases.getPlantaById(idPlanta))
+			[HttpPost]
+			+ IActionResult Planta(int idPlanta, double nuevoPrecio)
+				ViewBag.Mensaje
+				return View(_plantaUseCases.getPlantaById(idPlanta))
+	Views/
+		Index.cshtml
+		Planta.cshtml		
+
+
+				
+								
+
+			
