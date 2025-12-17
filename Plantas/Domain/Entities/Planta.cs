@@ -12,7 +12,7 @@ namespace Domain.Entities
         private int _id;
 		private string _nombre;
         private string _descripcion;
-        private double _precio;
+        private decimal _precio;
         private int _idCategoria;
         #endregion
 
@@ -20,13 +20,13 @@ namespace Domain.Entities
         public int id { get; set; }
         public string nombre { get; set; }
         public string descripcion { get; set; }
-        public double precio { get; set; }
+        public decimal precio { get; set; }
         public int idCategoria { get; set; }
         #endregion
 
         #region constructores
         public Planta() { }
-        public Planta(int id, string nombre, string descripcion, double precio, int idCategoria) {
+        public Planta(int id, string nombre, string descripcion, decimal precio, int idCategoria) {
             _id = id;
             _nombre = nombre;
             _descripcion = descripcion;

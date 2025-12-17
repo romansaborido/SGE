@@ -40,7 +40,7 @@ namespace Domain.UseCases
             return new PlantaDTO(planta, _categoriaUseCases.getNombreCategoria(planta.idCategoria));
         }
 
-        public int cambiarPrecio(int idPlanta, double nuevoPrecio) {
+        public int cambiarPrecio(int idPlanta, decimal nuevoPrecio) {
             return _plantaRepository.cambiarPrecio(idPlanta, nuevoPrecio);
         }
     }

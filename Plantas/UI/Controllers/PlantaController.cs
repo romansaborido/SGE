@@ -30,7 +30,7 @@ namespace UI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Planta(int idPlanta, double nuevoPrecio) {
+        public IActionResult Planta(int idPlanta, decimal nuevoPrecio) {
             int res = _plantaUseCases.cambiarPrecio(idPlanta, nuevoPrecio);
             if (res > 0)
             {

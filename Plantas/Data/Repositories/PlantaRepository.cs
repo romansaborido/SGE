@@ -21,7 +21,7 @@ namespace Data.Repositories
                     id = 1,
                     nombre = "Ficus",
                     descripcion = "Planta de interior resistente y decorativa",
-                    precio = 25.99,
+                    precio = 25.99m,
                     idCategoria = 1
                 },
                 new Planta
@@ -29,7 +29,7 @@ namespace Data.Repositories
                     id = 2,
                     nombre = "Monstera",
                     descripcion = "Planta tropical de hojas grandes",
-                    precio = 32.50,
+                    precio = 32.50m,
                     idCategoria = 1
                 },
 
@@ -38,7 +38,7 @@ namespace Data.Repositories
                     id = 3,
                     nombre = "Rosal",
                     descripcion = "Planta de exterior con flores aromáticas",
-                    precio = 18.75,
+                    precio = 18.75m,
                     idCategoria = 2
                 },
                 new Planta
@@ -46,7 +46,7 @@ namespace Data.Repositories
                     id = 4,
                     nombre = "Lavanda",
                     descripcion = "Planta aromática ideal para jardines",
-                    precio = 15.00,
+                    precio = 15.00m,
                     idCategoria = 2
                 },
                 new Planta
@@ -54,7 +54,7 @@ namespace Data.Repositories
                     id = 5,
                     nombre = "Aloe Vera",
                     descripcion = "Suculenta con propiedades medicinales",
-                    precio = 12.30,
+                    precio = 12.30m,
                     idCategoria = 3
                 },
                 new Planta
@@ -62,7 +62,7 @@ namespace Data.Repositories
                     id = 6,
                     nombre = "Echeveria",
                     descripcion = "Suculenta ornamental de fácil cuidado",
-                    precio = 9.99,
+                    precio = 9.99m,
                     idCategoria = 3
                 }
             };
@@ -71,7 +71,7 @@ namespace Data.Repositories
 
         #region metodos
         // Devuelve 0 si no se ha podido modificar o el ID de la planta modificada
-        public int cambiarPrecio(int idPlanta, double nuevoPrecio)
+        public int cambiarPrecio(int idPlanta, decimal nuevoPrecio)
         {
             int res = 0;
 

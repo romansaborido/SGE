@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,21 +37,27 @@ namespace Domain.Entities
         #endregion
 
         #region propiedades
+        [Required(ErrorMessage = "Campo obligatorio")]
         public int id
         {
             get { return _id; }
             set { _id = value; } // Se lo he puesto porque cuando estoy obteniendo los datos de la BD tengo que actualizarlo
         }
+        [Required(ErrorMessage = "Campo obligatorio")]
+        [MaxLength(30, ErrorMessage = "Máximo 30 caracteres")]
         public string nombre
         {
             get { return _nombre; }
             set { _nombre = value; }
         }
+        [Required(ErrorMessage = "Campo obligatorio")]
+        [MaxLength(60, ErrorMessage = "Máximo 60 caracteres")]
         public string apellidos
         {
             get { return _apellidos; }
             set { _apellidos = value; }
         }
+        [StringLength(9, MinimumLength = 9, ErrorMessage = "Debe tener exactamente 9 números")]
         public string telefono
         {
             get { return _telefono; }
@@ -65,6 +73,7 @@ namespace Domain.Entities
             get { return _foto; }
             set { _foto = value; }
         }
+        [DataType(DataType.Date)]
         public DateOnly fechaNacimiento
         {
             get { return _fechaNacimiento; }

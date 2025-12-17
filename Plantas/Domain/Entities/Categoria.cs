@@ -13,12 +13,12 @@ namespace Domain.Entities
         private string _nombre;
         #endregion
 
-        #region constructores
+        #region propiedades
         public int id { get; set; }
         public string nombre { get; set; }
         #endregion
 
-        #region categoria
+        #region constructores
         public Categoria() { }
         public Categoria(int id, string nombre) { }
         #endregion

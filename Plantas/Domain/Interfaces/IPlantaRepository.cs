@@ -11,6 +11,6 @@ namespace Domain.Interfaces
     {
         List<Planta> getPlantasByCategoria(int idCategoria);
         Planta getPlantaById(int idPlanta);
-        int cambiarPrecio(int idPlanta, double nuevoPrecio);
+        int cambiarPrecio(int idPlanta, decimal nuevoPrecio);
     }
 }

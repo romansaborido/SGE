@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\views\\planta\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\views\\planta\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\entities\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\usecases\\plantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\plantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\views\\planta\\planta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\views\\planta\\planta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\views\\planta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\views\\planta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\data\\repositories\\plantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|solutionrelative:data\\repositories\\plantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\data\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|solutionrelative:data\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\dtos\\plantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\plantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\dtos\\plantascategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\plantascategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\entities\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\controllers\\plantacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\controllers\\plantacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\interfaces\\iplantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iplantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\interfaces\\iplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\interfaces\\iplantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iplantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\interfaces\\icategoriausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,12 +43,28 @@
       "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C8B5BB7-11F7-4044-8B05-7A8386B98154}|Container\\Container.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\container\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C8B5BB7-11F7-4044-8B05-7A8386B98154}|Container\\Container.csproj|solutionrelative:container\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\dtos\\plantascategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\plantascategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\controllers\\plantacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\controllers\\plantacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\dtos\\plantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\plantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\data\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5EDC13-3069-4DA2-86A6-114397D9164D}|Data\\Data.csproj|solutionrelative:data\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C8B5BB7-11F7-4044-8B05-7A8386B98154}|Container\\CompositionRoot.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\container\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8B5BB7-11F7-4044-8B05-7A8386B98154}|Container\\CompositionRoot.csproj|solutionrelative:container\\inversifyconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\views\\planta\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\views\\planta\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\views\\planta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\views\\planta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{F444EF07-2D50-4D03-BED0-012F12D636C7}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\usecases\\plantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\plantausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|c:\\users\\roman.saborido\\documents\\github\\sge\\plantas\\domain\\usecases\\categoriausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{152E4B16-D5B0-4124-AB7E-7C34FB45149E}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\categoriausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -99,32 +99,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlantaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantaDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PlantaDTO.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantaDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PlantaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "Domain\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:31:29.482Z",
+              "WhenOpened": "2025-12-15T18:18:25.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlantasCategoriasDTO.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantasCategoriasDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PlantasCategoriasDTO.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantasCategoriasDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PlantasCategoriasDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Title": "IPlantaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPlantaRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPlantaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:28:06.775Z",
+              "WhenOpened": "2025-12-15T18:23:19.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IPlantaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPlantaUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaUseCases.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPlantaUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:26:15.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlantaController.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Controllers\\PlantaController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\PlantaController.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Controllers\\PlantaController.cs",
+              "RelativeToolTip": "UI\\Controllers\\PlantaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:49:27.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlantaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\PlantaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PlantaRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\PlantaRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\PlantaRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwEAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:48:08.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Planta.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Planta.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Planta.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Planta.cshtml",
+              "RelativeToolTip": "UI\\Views\\Planta\\Planta.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:23:43.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlantaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\UseCases\\PlantaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PlantaUseCases.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\UseCases\\PlantaUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PlantaUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:37:56.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Planta.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Entities\\Planta.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Planta.cs",
@@ -137,111 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\CategoriaRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\CategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T19:26:22.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlantaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\PlantaRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\PlantaRepository.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\PlantaRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\PlantaRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:48:08.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Index.cshtml",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Planta\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T10:57:09.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Planta.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Planta.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Planta.cshtml",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Planta.cshtml",
-              "RelativeToolTip": "UI\\Views\\Planta\\Planta.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T11:23:43.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Privacy.cshtml",
-              "RelativeToolTip": "UI\\Views\\Planta\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T12:06:21.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Categoria.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Entities\\Categoria.cs",
-              "RelativeToolTip": "Domain\\Entities\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:18:25.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IPlantaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPlantaUseCases.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaUseCases.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IPlantaUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:26:15.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPlantaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPlantaRepository.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\IPlantaRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IPlantaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:23:19.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ICategoriaUseCases.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\ICategoriaUseCases.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICategoriaUseCases.cs",
@@ -254,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICategoriaRepository.cs",
@@ -263,6 +224,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T18:24:14.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlantasCategoriasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantasCategoriasDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PlantasCategoriasDTO.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantasCategoriasDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PlantasCategoriasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:28:06.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlantaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantaDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PlantaDTO.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\DTOs\\PlantaDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PlantaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:31:29.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Data\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:26:22.983Z",
               "EditorCaption": ""
             },
             {
@@ -281,19 +281,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "PlantaController.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Controllers\\PlantaController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\PlantaController.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Controllers\\PlantaController.cs",
-              "RelativeToolTip": "UI\\Controllers\\PlantaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T19:49:27.286Z",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Privacy.cshtml",
+              "RelativeToolTip": "UI\\Views\\Planta\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T12:06:21.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Planta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Views\\Planta\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Planta\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T10:57:09.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "UI\\Models\\ErrorViewModel.cs",
@@ -301,12 +313,11 @@
               "RelativeToolTip": "UI\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T10:55:58.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T10:55:58.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\Program.cs",
               "RelativeDocumentMoniker": "UI\\Program.cs",
@@ -314,12 +325,11 @@
               "RelativeToolTip": "UI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T19:49:20.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T19:49:20.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CompositionRoot.csproj",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Container\\CompositionRoot.csproj",
               "RelativeDocumentMoniker": "Container\\CompositionRoot.csproj",
@@ -327,8 +337,7 @@
               "RelativeToolTip": "Container\\CompositionRoot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-16T11:19:14.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T11:19:14.012Z"
             },
             {
               "$type": "Document",
@@ -340,33 +349,18 @@
               "RelativeToolTip": "Domain\\UseCases\\CategoriaUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:43:56.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T18:43:56.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UI",
               "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\UI.csproj",
               "RelativeDocumentMoniker": "UI\\UI.csproj",
               "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\UI\\UI.csproj",
               "RelativeToolTip": "UI\\UI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-15T19:49:18.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PlantaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\UseCases\\PlantaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\PlantaUseCases.cs",
-              "ToolTip": "C:\\Users\\roman.saborido\\Documents\\GitHub\\SGE\\Plantas\\Domain\\UseCases\\PlantaUseCases.cs",
-              "RelativeToolTip": "Domain\\UseCases\\PlantaUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:37:56.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T19:49:18.782Z"
             }
           ]
         }
