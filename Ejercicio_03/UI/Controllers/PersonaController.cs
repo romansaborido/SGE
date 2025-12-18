@@ -65,26 +65,33 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Create(Persona persona)
         {
-            string mensaje;
-            int res = 0;
-            try
+            if (!ModelState.IsValid)
             {
-                res = _personaUseCases.addPersona(persona);
+                return View(_personaUseCases.getListadoDepartamentos());
             }
-            catch (Exception ex)
+            else 
             {
-                Console.WriteLine(ex.ToString());
+                string mensaje;
+                int res = 0;
+                try
+                {
+                    res = _personaUseCases.addPersona(persona);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+                if (res > 0)
+                {
+                    mensaje = "La persona se ha creado correctamente";
+                }
+                else
+                {
+                    mensaje = "La persona no se ha podido crear";
+                }
+                ViewBag.mensaje = mensaje;
+                return View(_personaUseCases.getListadoDepartamentos());
             }
-            if (res > 0)
-            {
-                mensaje = "La persona se ha creado correctamente";
-            }
-            else
-            {
-                mensaje = "La persona no se ha podido crear";
-            }
-            ViewBag.mensaje = mensaje;
-            return View(_personaUseCases.getListadoDepartamentos());
         }
 
         public ActionResult Edit(int id)
@@ -105,26 +112,33 @@ namespace UI.Controllers
         [HttpPost]
         public ActionResult Edit(int id, Persona persona)
         {
-            string mensaje;
-            int res = 0;
-            try
+            if (!ModelState.IsValid)
             {
-                res = _personaUseCases.updatePersona(id, persona);
+                return View(_personaUseCases.getListadoDepartamentos());
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine(ex.ToString());
+                string mensaje;
+                int res = 0;
+                try
+                {
+                    res = _personaUseCases.updatePersona(id, persona);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+                if (res > 0)
+                {
+                    mensaje = "La persona se ha modificado correctamente";
+                }
+                else
+                {
+                    mensaje = "La persona no se ha podido modificar";
+                }
+                ViewBag.mensaje = mensaje;
+                return View(_personaUseCases.GetPersonaWithListadoDepDTO(id));
             }
-            if (res > 0)
-            {
-                mensaje = "La persona se ha modificado correctamente";
-            }
-            else 
-            {
-                mensaje = "La persona no se ha podido modificar";
-            }
-            ViewBag.mensaje = mensaje;
-            return View(_personaUseCases.GetPersonaWithListadoDepDTO(id));
         }
 
         public ActionResult Delete(int id)
