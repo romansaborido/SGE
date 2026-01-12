@@ -97,10 +97,14 @@ namespace Data.Repositories
                     departamentos.Add(departamento);
                 }
 
+                // Devolvemos el listado
+                return departamentos;
+
             }
             catch (SqlException ex) 
             {
-                
+                Console.WriteLine(ex.Message);
+                throw;
             }
         }
     }

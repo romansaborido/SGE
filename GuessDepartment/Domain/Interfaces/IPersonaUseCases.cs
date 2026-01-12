@@ -8,6 +8,6 @@ namespace Domain.Interfaces
     public interface IPersonaUseCases
     {
         List<PersonaDepartamentosDTO> getPersonas();
-        int getPuntuacion(List<IdPersonaDepartamentoDTO> resForm);
+        int getAciertos(List<IdPersonaDepartamentoDTO> resForm);
     }
 }

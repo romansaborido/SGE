@@ -3,40 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|solutionrelative:data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\ui\\models\\personacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\models\\personacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C6A5FA-B63F-418B-ADDA-693429C4D9B6}|Data\\Data.csproj|solutionrelative:data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\ui\\mappers\\personadtotopersonacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\mappers\\personadtotopersonacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\ui\\mappers\\ipersonadtotopersonacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\mappers\\ipersonadtotopersonacolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\dtos\\personadepartamentosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personadepartamentosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipersonausecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3099F1AD-CF87-4DE4-92DB-EABC0A242DF0}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\departamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|solutionrelative:data\\repositories\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|solutionrelative:data\\dataresources\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE8E2E54-CA0B-F6F5-0102-F79722AD1421}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idepartamentousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\interfaces\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\rsabo\\documents\\github\\sge\\guessdepartment\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +78,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\DepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Repositories\\DepartamentoRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\DepartamentoRepository.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowGYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T19:03:12.178Z",
+              "WhenOpened": "2026-01-12T08:48:28.752Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaDTOtoPersonaColor.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Mappers\\PersonaDTOtoPersonaColor.cs",
+              "RelativeDocumentMoniker": "UI\\Mappers\\PersonaDTOtoPersonaColor.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Mappers\\PersonaDTOtoPersonaColor.cs",
+              "RelativeToolTip": "UI\\Mappers\\PersonaDTOtoPersonaColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:41:48.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "IPersonaDTOtoPersonaColor.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Mappers\\IPersonaDTOtoPersonaColor.cs",
+              "RelativeDocumentMoniker": "UI\\Mappers\\IPersonaDTOtoPersonaColor.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Mappers\\IPersonaDTOtoPersonaColor.cs",
+              "RelativeToolTip": "UI\\Mappers\\IPersonaDTOtoPersonaColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:31:58.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaColor.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Models\\PersonaColor.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\PersonaColor.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Models\\PersonaColor.cs",
+              "RelativeToolTip": "UI\\Models\\PersonaColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:18:47.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "UI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:18:24.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartamentoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\UseCases\\DepartamentoUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\DepartamentoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:15:59.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaDepartamentosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\DTOs\\PersonaDepartamentosDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaDepartamentosDTO.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\DTOs\\PersonaDepartamentosDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\PersonaDepartamentosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:02:18.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\UseCases\\PersonaUseCases.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonaUseCases.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:58:00.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PersonaRepository.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Repositories\\PersonaRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepository.cs",
@@ -80,20 +199,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Data",
+              "DocumentIndex": 7,
+              "Title": "IPersonaUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IPersonaUseCases.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersonaUseCases.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IPersonaUseCases.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPersonaUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T18:23:06.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Repositories\\DepartamentoRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\DepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T19:03:12.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Data.csproj",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
               "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\Data.csproj",
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-04T18:32:06.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:32:06.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Connection.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Data\\DataResources\\Connection.cs",
               "RelativeDocumentMoniker": "Data\\DataResources\\Connection.cs",
@@ -106,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "IDepartamentoUseCases.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IDepartamentoUseCases.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IDepartamentoUseCases.cs",
@@ -114,25 +258,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IDepartamentoUseCases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:28:29.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:28:29.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPersonaUseCases.cs",
-              "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IPersonaUseCases.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersonaUseCases.cs",
-              "ToolTip": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IPersonaUseCases.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IPersonaUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:23:06.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "IDepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Interfaces\\IDepartamentoRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IDepartamentoRepository.cs",
@@ -140,12 +270,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IDepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:22:01.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:22:01.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
@@ -153,12 +282,11 @@
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:02:26.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:02:26.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\rsabo\\Documents\\GitHub\\SGE\\GuessDepartment\\Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
@@ -166,12 +294,7 @@
               "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:07:03.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2026-01-04T18:07:03.175Z"
             }
           ]
         }
