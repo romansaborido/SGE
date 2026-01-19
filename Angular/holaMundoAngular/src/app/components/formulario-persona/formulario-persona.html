@@ -1,15 +1,24 @@
-<label for="name">Name</label>
-<input id="name" type="text"/>
+<div class="form-container">
+  <h2>Formulario de Persona</h2>
 
-<label for="surname">Surname</label>
-<input id="surname" type="text"/>
+  <form [formGroup]="personaForm" (ngSubmit)="saludar()">
 
-<button onclick="saludar()">Saludar</button>
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" formControlName="nombre" placeholder="Introduce tu nombre">
+      <div class="error" *ngIf="personaForm.get('nombre')?.touched && personaForm.get('nombre')?.invalid">
+        El nombre es obligatorio y debe tener al menos 2 caracteres
+      </div>
+    </div>
 
-<script>
-    function saludar() {
-        const name = document.getElementById("name").value
-        const surname = document.getElementById("surname").value
-        alert("Hola " + name + " " + surname)
-    }    
-</script>
+    <div class="form-group">
+      <label for="apellidos">Apellidos</label>
+      <input id="apellidos" type="text" formControlName="apellidos" placeholder="Introduce tus apellidos">
+      <div class="error" *ngIf="personaForm.get('apellidos')?.touched && personaForm.get('apellidos')?.invalid">
+        Los apellidos son obligatorios y deben tener al menos 2 caracteres
+      </div>
+    </div>
+
+    <button type="submit">Saludar</button>
+  </form>
+</div>

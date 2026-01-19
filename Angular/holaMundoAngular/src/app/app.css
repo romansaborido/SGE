@@ -1,0 +1,50 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+}
+
+/* HEADER */
+.header {
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.header nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENT (CAMBIA CON LAS RUTAS) */
+.content {
+  flex: 1;
+  padding: 24px;
+  background-color: #f9fafb;
+}
+
+/* FOOTER */
+.footer {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}

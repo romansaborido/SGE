@@ -1,13 +1,18 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class="layout">
+  <header class="header">
+    <h1>Mi Aplicación</h1>
+    <nav>
+      <a routerLink="/">Inicio</a>
+      <a routerLink="/formulario">Formulario</a>
+    </nav>
+  </header>
 
-<p>Ruben es un chivato</p>
-<app-tabla-personas></app-tabla-personas>
-<app-formulario-persona></app-formulario-persona>
-<router-outlet />
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="footer">
+    © 2026 · Mi App Angular
+  </footer>
+</div>
+
